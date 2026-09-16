@@ -264,13 +264,17 @@ La priorización sigue tres ejes: (a) impacto real en salud pública paraguaya, 
 
 Si tuviéramos que empezar **un solo proyecto** hoy, sería:
 
-> **Taller Nextclade + nf-core en LCSP** — costo bajo, valor inmediato, construye relación con el actor más estratégico del sistema de vigilancia genómica, y produce entregables visibles (dashboards, SOPs, papers de métodos) que abren la puerta a los otros 7 proyectos.
+> **Taller Nextclade + nf-core en LCSP** — costo bajo, valor inmediato, construye relación con el actor más estratégico del sistema de vigilancia genómica, y produce entregables visibles (dashboards, SOPs, papers de métodos) que abren la puerta a los otros 8 proyectos.
 
 Si tuviéramos que empezar **dos**:
 
 > Lo anterior + **Fine-tune MedGemma 4B para triaje en español paraguayo** — un paper de evaluación sólido publicado abre la conversación nacional sobre IA clínica.
 
-Los **proyectos 4 y 5 (patología digital y AMR)** son los más necesitados de co-financiamiento externo y los más apropiados para las convocatorias internacionales identificadas.
+Si tuviéramos que empezar **tres** (recomendación actualizada):
+
+> Los dos anteriores + **TB cough screening con HeAR** — el proyecto con mayor impacto social inmediato en Paraguay, técnicamente deployable hoy, éticamente alineado con CARE Principles.
+
+Los **proyectos 4 y 5 (patología digital y AMR genómico)** son los más necesitados de co-financiamiento externo y los más apropiados para las convocatorias internacionales identificadas.
 
 ---
 

@@ -565,6 +565,226 @@ Si tuviera que elegir **tres herramientas de IA open-source** que más moverían
 
 ---
 
+## §14. Google DeepMind + HAI-DEF — catálogo detallado
+
+Google es el **vendor único más importante** para IA médica/biomédica abierta. Su portafolio se divide en tres capas:
+
+- **Google DeepMind** — investigación frontera (AlphaFold 3, AlphaGenome, AI Co-Scientist, Gemini 2.5).
+- **Health AI Developer Foundations (HAI-DEF)** — modelos open-weight con fine-tuning médico (MedGemma, TxGemma, HeAR, Path/CXR/Derm Foundation, MedASR, MedSigLIP).
+- **Gemma family** — base general (Gemma 3 → MedGemma, PaliGemma 2).
+
+**Términos HAI-DEF (verificados):**
+
+- Código (recipe + inference + training + utility): **Apache 2.0**.
+- Weights: open-weight con [Health AI Dev Foundations License](https://developers.google.com/health-ai-developer-foundations/terms). Investigación + comercial OK.
+- **Prohibido**: usos restringidos por [Prohibited Use Policy](https://developers.google.com/health-ai-developer-foundations/prohibited-use-policy); cualquier uso que haga que Google sea considerado "manufacturer" de un dispositivo médico; violación de leyes aplicables.
+- **Requerido**: incluir restricciones §3.2 como acuerdo ejecutable; notificar a usuarios downstream; acompañar distribuciones con archivo "Notice".
+- Google puede terminar el acuerdo o restringir uso remotamente.
+
+### §14.1 AlphaFold 3 + AlphaFold Server + AlphaFold DB
+
+- **AF3 v3.0.4** (jul 2025), **v3.0.3** (jun 2025, Apache 2.0 code).
+- **Pesos**: **custom non-commercial** — universidades, ONGs, gobierno, periodismo. **Comercial prohibido**.
+- **AlphaFold Server**: ~10–20 jobs/día por usuario académico.
+- **AlphaFold Database**: 200M+ estructuras, CC0, gratis comercial.
+
+**Apto Paraguay:**
+- ✅ IICS / CEDIC / Hospital de Clínicas / BioProsNat — uso académico libre.
+- ✅ AlphaFold Server para uso educativo sin GPU local.
+- ❌ Tesabio — pesos de AF3 no son comercialmente usables; usar **OpenFold3** o **Boltz-2**.
+
+### §14.2 OpenFold3 (Apache 2.0 — la mejor alternativa abierta a AF3)
+
+- **Released**: preview 28 oct 2025. Licencia **Apache 2.0** (código + pesos).
+- **Desarrolladores**: AlQuraishi Lab (Columbia) + OpenFold Consortium + LLNL + Steinegger Lab Seoul.
+- **Performance**: competitivo con AF3; **único modelo open que iguala AF3 en monomeric RNA**.
+- **Disponible via**: HuggingFace, Docker, NVIDIA NIM.
+- **Production model**: OpenBind-0 (jun 2025 cutoff).
+
+**Por qué importa para Paraguay:** si BioProsNat/Tesabio quieren usar estructura AF3-class para drug discovery con downstream comercial, **OpenFold3 es la única opción abierta**.
+
+- Repo: [github.com/aqlaboratory/openfold-3](https://github.com/aqlaboratory/openfold-3)
+- HF: [huggingface.co/OpenFold/OpenFold3](https://huggingface.co/OpenFold/OpenFold3)
+- NIM: [build.nvidia.com/openfold/openfold3](https://build.nvidia.com/openfold/openfold3)
+
+### §14.3 AlphaGenome (API no comercial)
+
+- **Released**: 25 jun 2025. **Nature**: enero 2026.
+- Predice miles de propiedades regulatorias desde 1 Mb de ADN. 22/24 en tareas de secuencia, 24/26 en tareas de variantes vs SOTA externos.
+- **AlphaGenome Atlas**: predicciones precomputadas para **9 mil millones** de SNVs en genoma humano.
+- API: gratis no comercial, hasta ~1M predicciones razonables.
+
+**Apto Paraguay:** ✅ CEDIC × Galatea Bio biobank; ✅ IICS molecular biology para variantes hereditarias. ❌ No comercial.
+
+- Repo: [github.com/google-deepmind/alphagenome](https://github.com/google-deepmind/alphagenome)
+- API: [deepmind.google/science/alphagenome](https://deepmind.google/science/alphagenome)
+- Atlas: [deepmind.google/science/alphagenome/atlas](https://deepmind.google/science/alphagenome/atlas)
+
+### §14.4 AI Co-Scientist
+
+- **Released**: diciembre 2024; Nature 2026.
+- Multi-agent sobre Gemini 2.0 con agentes Supervisor + Generation + Reflection + Ranking (Elo tournament) + Evolution + Proximity + Meta-review.
+- Tres casos validados: drug repurposing AML, liver fibrosis targets, AMR mechanism.
+- **No producto público**; solo via Trusted Tester.
+
+**Apto Paraguay:** ⏸ **Futuro**. Cuando se abra el acceso, el proyecto natural es drug repurposing para Chagas (siguiendo el playbook AML). Pre-posicionamiento con propuestas listas.
+
+- Blog: [research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)
+- Nature: [doi.org/10.1038/s41586-026-10644-y](https://doi.org/10.1038/s41586-026-10644-y)
+
+### §14.5 Gemini 2.5 Pro / Flash (closed)
+
+- Gemini 2.5 Pro top en benchmarks clínicos publicados (nephrology reasoning 7.57/10, beats GPT-o3). Pasó el examen de especialización polaco de ginecología a 96.63%.
+- Multimodal nativo (image + text + audio + video hasta3h), thinking mode, 1M+ context.
+- API + Vertex AI en GCP. Pagado.
+
+**Apto Paraguay:** ✅ como asistente de research (literatura, código, brainstorming). ❌ para clinical use (cerrado, sin fine-tune específico).
+
+### §14.6 MedGemma (HAI-DEF) — LLM clínico
+
+- Mayo 2025 (4B + 27B text), julio 2025 (27B multimodal), MedGemma 1.5 actualizado.
+- Gemma 3 base + SigLIP-400M médico. 64.4% MedQA (4B), 87.7% MedQA (27B). 81% de informes CXR del 4B juzgados suficientes para manejo similar.
+- 50% reducción de errores en retrieval de EHR tras fine-tune.
+
+**Apto Paraguay: ⭐⭐ EL MÁS ALTO FIT.** Fine-tuneable en español paraguayo en una sola GPU. Deploy en HIVE BUZZ.
+
+- Repo: [github.com/google-health/medgemma](https://github.com/google-health/medgemma)
+- HF: [huggingface.co/collections/google/medgemma](https://huggingface.co/collections/google/medgemma)
+- Notebook: [colab.research.google.com/github/google-health/medgemma](https://colab.research.google.com/github/google-health/medgemma/blob/main/notebooks/quick_start_with_hugging_face.ipynb)
+
+### §14.7 MedSigLIP (HAI-DEF) — encoder visual médico
+
+- SigLIP-400M fine-tuned en CXR, CT, MRI, dermatología, oftalmología, histopathology.
+- **Casos de uso**: zero-shot classification, data-efficient classification, semantic image retrieval.
+
+**Apto Paraguay:** ✅ INCAN pathology; ✅ TB screening por CXR; ✅ Hospital de Clínicas radiology.
+
+### §14.8 TxGemma — LLM terapéutico (sleeper hit para Paraguay)
+
+- **Released**: 25 marzo 2025. Fine-tune de Gemma 2 sobre Therapeutics Data Commons (66 tasks, 7M ejemplos, 15M data points).
+- **Tamaños**: 2B / 9B / 27B. Variantes Predict (tareas narrow) y Chat (9B/27B, multi-turn con explicaciones).
+- **Performance**: supera SOTA generalista en 45/66 tareas, especialista en 26/50. Humanity's Last Exam (Chem/Bio) +9.8% sobre o3-mini.
+- **Inputs**: SMILES de moléculas, secuencias de proteínas, ácidos nucleicos, descripciones de enfermedades, líneas celulares.
+
+**Apto Paraguay: ⭐⭐ EL MÁS ALTO FIT para CEDIC + BioProsNat + Tesabio.**
+
+Pipeline recomendado:
+1. **TxGemma-Chat 9B** — query en español sobre ADMET de productos naturales paraguayos.
+2. **Boltz-2** (MIT, comercial OK) — estructura 3D + afinidad de los hits predichos.
+3. **CEDIC** — validación experimental in vitro.
+
+Aplicaciones concretas:
+- Predicción de toxicidad de productos naturales paraguayos.
+- Penetración de barrera hematoencefálica.
+- Afinidad de unión proteína-ligando para targets de *T. cruzi* / *Leishmania*.
+- Generación de combinaciones sinérgicas.
+
+- Model card: [developers.google.com/health-ai-developer-foundations/txgemma/model-card](https://developers.google.com/health-ai-developer-foundations/txgemma/model-card)
+- Blog: [developers.googleblog.com/introducing-txgemma](https://developers.googleblog.com/introducing-txgemma-open-models-improving-therapeutics-development/)
+
+### §14.9 Path Foundation (HAI-DEF) — histopathology encoder
+
+- Embeddings para patches de histopathology. Data-efficient classification.
+- **Apto Paraguay**: ✅ INCAN pathology digitalization pilot. ⚠️ requiere validación en H&E paraguayo (distribution shift).
+
+### §14.10 CXR Foundation (HAI-DEF) — chest X-ray encoder
+
+- Embeddings para CXR.
+- **Apto Paraguay**: ✅ TB screening, cardiomegaly/pneumonia classification, ER triage.
+
+### §14.11 Derm Foundation (HAI-DEF) — dermatology encoder
+
+- Embeddings para imágenes de piel.
+- **Apto Paraguay**: ✅ Chagas cutáneo (chagoma, signo de Romaña); ✅ teledermatología rural.
+
+### §14.12 HeAR — health acoustics embeddings (⭐ sleeper hit para TB)
+
+- **Released**: 2024. Embeddings 512-d para clips de audio de 2 segundos. Entrenado sobre 300M+ clips (tos, respiración, carraspeo, risa, habla).
+- **Linear probing** en 33 health acoustic tasks — SOTA en la mayoría.
+- **Performance benchmarked** para: COVID-19, tuberculosis, COPD, asma pediátrico, neumonía.
+
+**Apto Paraguay: ⭐⭐⭐ ALTÍSIMO. La aplicación más concreta:**
+
+- Paraguay es **hiperendémico para TB** (en Chaco y en indígenas).
+- Atención primaria rural **no tiene acceso a chest X-ray**.
+- HeAR + clasificador lineal + smartphone = **screening de TB por tos** deployable en Chaco.
+
+Proyecto concreto: app móvil donde agente de salud comunitaria graba la tos del paciente → embedding HeAR → clasificador (entrenado en datos locales o SPRSound/COUGHVID) → probabilidad de TB → referral al Hospital de Clínicas.
+
+- HF: [huggingface.co/google/hear](https://huggingface.co/google/hear)
+- Paper: [arxiv.org/abs/2403.02522](https://arxiv.org/abs/2403.02522)
+
+### §14.13 MedASR — medical speech recognition
+
+- **Released**: diciembre 2025. Conformer 105M params. 5,000+ horas de dictado médico (radiología, internal medicine, family medicine).
+- **4.6% WER** en radiology dictation (con 6-gram LM). 5× mejor que Whisper v3 Large. Beats Gemini 2.5 Pro/Flash.
+- **English only.**
+
+**Apto Paraguay:** ⚠️ Limitado por idioma. ✅ Sirve como template para construir un Spanish/Guaraní medical ASR (arquitectura + pipeline disponibles).
+
+- HF: [huggingface.co/google/medasr](https://huggingface.co/google/medasr)
+- Paper: [arxiv.org/pdf/2605.16555](https://arxiv.org/pdf/2605.16555)
+- Sitio: [medasr.org](https://medasr.org)
+
+### §14.14 PaliGemma 2 — general VLM (Gemma 2 based)
+
+- 3B / 10B / 28B. Capacidades: captioning, VQA, object detection, OCR.
+- **Apto Paraguay:** ⚠️ General — no médico-tuned. Usar como backup si MedGemma no encaja.
+
+---
+
+## §15. Matriz maestra de licencias actualizada (incluye Google + OpenFold3)
+
+| Modelo/Herramienta | Licencia | ¿Comercial OK? | ¿Pesos locales? | ¿Apto Paraguay? |
+|---|---|---|---|---|
+| AlphaFold 3 (código) | Apache 2.0 | ✓ | — | ✓ académico |
+| AlphaFold 3 (pesos) | Custom (no comercial) | ✗ | ✓ gated | ✓ académico / ✗ comercial |
+| AlphaFold Database | CC0 | ✓ | n/a | ✓ |
+| AlphaGenome | Non-commercial API | ✗ | ✗ (API) | ✓ académico |
+| **OpenFold3** | **Apache 2.0** | **✓** | **✓** | **✓✓ mejor alternativa open a AF3** |
+| **Boltz-2** | **MIT** | **✓** | **✓** | **✓✓ default drug discovery** |
+| Boltz-1 | MIT | ✓ | ✓ | ✓ |
+| Chai-1 / Chai-2 | Apache 2.0 | ✓ | ✓ | ✓ |
+| ESM3 1.4B | Cambrian Non-Commercial | ✗ | ✓ | limitado |
+| **MedGemma 4B/27B** | **HAI-DEF** | **✓** | **✓** | **✓✓ default clínico** |
+| MedSigLIP | HAI-DEF | ✓ | ✓ | ✓ |
+| **TxGemma 2B/9B/27B** | **Gemma terms** | **✓** | **✓** | **✓✓ default terapéutico** |
+| Path Foundation | HAI-DEF | ✓ | ✓ | ✓ |
+| CXR Foundation | HAI-DEF | ✓ | ✓ | ✓ |
+| Derm Foundation | HAI-DEF | ✓ | ✓ | ✓ |
+| **HeAR** | **HAI-DEF** | **✓** | **✓** | **✓✓✓ default TB cough screening** |
+| MedASR | HAI-DEF (English only) | ✓ | ✓ | ⚠️ template, no deploy directo |
+| PaliGemma 2 | Gemma terms | ✓ | ✓ | ⚠️ backup general |
+| Gemini 2.5 Pro/Flash | Closed | ✓ (paid API) | ✗ | ✓ research assistant |
+| ESM C (300M/600M) | Open (Cambrian terms) | ✓ | ✓ | ✓ |
+| Nucleotide Transformer | Apache 2.0 | ✓ | ✓ | ✓ |
+| HyenaDNA / Caduceus / Evo | Open (paper-specific) | ✓ | ✓ | ✓ |
+| LigandMPNN / ProteinMPNN | Open | ✓ | ✓ | ✓ |
+| RFdiffusion | Open | ✓ | ✓ | ✓ |
+| RadFM | (paper-specific) | (verificar) | ✓ | ✓ |
+| ChemBERTa-3 | CC BY-NC (artículo), código open | varía | ✓ | ✓ |
+| TDC | Open | ✓ | — | ✓ |
+| scGPT, Geneformer, etc. | Open | ✓ | ✓ | ✓ |
+| scFoundry | Apache 2.0 | ✓ | — | ✓ |
+| BioNeMo Framework | Open | ✓ | ✓ | ✓ |
+| BioNeMo NIMs | NVIDIA AI Enterprise | ✓ (con licencia) | ✓ en containers | ✓ |
+| BioNeMo Agent Toolkit | CC BY 4.0 | ✓ | ✓ | ✓ |
+| LangGraph / AutoGen | Apache 2.0 / MIT | ✓ | ✓ | ✓ |
+
+---
+
+## §16. Top-5 recomendaciones actualizadas para Paraguay
+
+1. **MedGemma 4B** — clinical NLP, Hospital de Clínicas. **(HAI-DEF, Apache wrapper)**
+2. **TxGemma 27B-Chat** — drug discovery con BioProsNat + Tesabio + CEDIC. **(Gemma terms)**
+3. **HeAR** — TB cough screening en Chaco, smartphone-deployable. **(HAI-DEF)**
+4. **Boltz-2 + OpenFold3** — structure prediction con licencia comercial OK. **(MIT + Apache 2.0)**
+5. **NVIDIA BioNeMo Agent Toolkit** — orquestación de todos los anteriores. **(CC BY 4.0)**
+
+Honorable mentions: AlphaGenome (variant interpretation para CEDIC × Galatea), MedASR (template para Spanish medical ASR), CXR/Derm/Path Foundation (image embeddings para INCAN/Hospital de Clínicas).
+
+---
+
 ## Última actualización
 
 Septiembre 2026.

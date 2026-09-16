@@ -363,9 +363,36 @@ La respuesta tentativa está en `docs/research-areas.md` (resumen al final). Per
 
 1. **Piloto MedGemma 4B en Hospital de Clínicas** — máximo impacto inmediato en salud clínica.
 2. **Piloto Nextclade + nf-core en LCSP** — menor barrera, alineado con capacidades existentes, abre puerta.
-3. **Pipeline Boltz-2 + BioProsNat + CEDIC + Tesabio** — máximo upside científico, más complejo, requiere co-financiamiento FAPESP-CONACYT.
+3. **Pipeline TxGemma + Boltz-2 + BioProsNat + CEDIC + Tesabio** — máximo upside científico, más complejo, requiere co-financiamiento FAPESP-CONACYT.
+
+Y un cuarto, con **mayor impacto social inmediato**: **HeAR + TB cough screening en Chaco** (ver `areas/health-acoustics-tb-screening/`). Técnicamente deployable hoy, éticamente alineado con CARE Principles.
 
 La elección depende de qué contacto se concrete primero (preparación en `docs/plan-preparacion.md`).
+
+### §10.1 Stack tecnológico disponible en Paraguay (google + open source, septiembre 2026)
+
+**Google / HAI-DEF (open-weight, comercial OK para la mayoría):**
+- MedGemma 4B/27B (clinical LLM)
+- TxGemma 2B/9B/27B (therapeutic LLM)
+- HeAR (health acoustics)
+- Path/CXR/Derm Foundation (image encoders)
+- MedSigLIP (medical image encoder)
+- MedASR (medical speech recognition — English only)
+- AlphaFold Database (CC0, 200M+ structures)
+- Gemini 2.5 Pro/Flash (closed, paid API)
+- AI Co-Scientist (Trusted Tester only, futuro)
+
+**OpenFold3 (third-party, Apache 2.0):**
+- AF3-class structure prediction, comercial OK, único open que iguala AF3 en monomeric RNA
+
+**Otros open source clave (ya en ai-stack-reference.md):**
+- Boltz-2 (MIT) — drug discovery, comercial OK
+- Chai-1/2 (Apache 2.0) — backup structure
+- ESM3 1.4B (Cambrian Non-Commercial) — protein design
+- LigandMPNN, RFdiffusion — protein design
+- nf-core / Nextclade — genomic pipelines
+- MedSAM (MIT) — medical segmentation
+- NVIDIA BioNeMo Agent Toolkit — agentic orchestration
 
 ---
 

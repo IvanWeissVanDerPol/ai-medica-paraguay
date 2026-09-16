@@ -4,6 +4,40 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión de actualización Google/HAI-DEF
+
+### Agregado
+
+- **`docs/google-deepmind-paraguay.md`** (~15 KB) — análisis dedicado del portafolio Google DeepMind + HAI-DEF específicamente para Paraguay. Mapeo fit × institución, top-3 recomendaciones (MedGemma 4B, TxGemma 27B-Chat, HeAR), próximos pasos operativos.
+- **`areas/health-acoustics-tb-screening/README.md`** — **Área 9 nueva**. HeAR (Google HAI-DEF) + clasificador lineal + smartphone para screening de TB en Chaco. Es el "sleeper hit" social — máximo impacto inmediato en Paraguay.
+- **`docs/ai-stack-reference.md` §14-§16** — catálogo detallado de todos los Google/HAI-DEF tools con licencias verificadas, tabla maestra de licencias actualizada, top-5 recomendaciones actualizadas para Paraguay. Se añadieron: AlphaFold 3, AlphaFold Server, AlphaFold Database, AlphaGenome, AI Co-Scientist, Gemini 2.5 Pro/Flash, MedGemma, MedSigLIP, TxGemma, Path/CXR/Derm Foundation, HeAR, MedASR, PaliGemma 2, y **OpenFold3** (Apache 2.0, AF3-class con pesos comerciales).
+
+### Modificado
+
+- **`docs/research-areas.md`** — actualizada priorización. Ahora se recomiendan tres proyectos iniciales: Nextclade+nf-core, MedGemma 4B, y TB cough screening con HeAR.
+- **`docs/research-findings.md`** §10 — actualizado "Próximo paso" con 4 candidatos (incluye HeAR); añadido §10.1 con stack tecnológico consolidado.
+- **`areas/drug-discovery/README.md`** — reescrito. Ahora recomienda **TxGemma 27B-Chat** + Boltz-2 + OpenFold3 como pipeline end-to-end para Chagas. Subraya que AF3 weights no son comercialmente usables — usar OpenFold3 o Boltz-2 para Tesabio.
+- **`areas/clinical-llms/README.md`** — actualizado. MedGemma 4B ahora es el default con licencia HAI-DEF verificada. Incluye nota regulatoria sobre HAI-DEF Prohibited Use.
+- **`areas/antimicrobial-resistance/README.md`** — renombrado conceptualmente a "AMR + screening TB respiratorio". Añade Opción B: HeAR TB cough screening.
+- **`areas/pathology-imaging/README.md`** — añadidos Path Foundation, CXR Foundation, Derm Foundation (HAI-DEF) como alternativas/complemento a CONCH/UNI/Virchow2.
+- **`README.md`** — añadido área 9, actualizada la lista de tres recomendaciones principales (MedGemma + TxGemma + HeAR).
+- **`INDEX.md`** — añadido el nuevo documento `google-deepmind-paraguay.md` y el área 9 a las tablas de navegación.
+
+### Hallazgos clave nuevos (verificados)
+
+1. **AlphaFold 3 weights son non-commercial** pero el **código es Apache 2.0**. Use the AlphaFold Server para academia; usa **OpenFold3** (Apache 2.0) para comercial.
+2. **OpenFold3** (octubre 2025, AlQuraishi Lab + OpenFold Consortium) es la **única alternativa open a AF3** con pesos comercialmente usables y rendimiento comparable.
+3. **HAI-DEF Prohibited Use** prohíbe explícitamente uso clínico regulado. Paraguay necesita su propio framework regulatorio.
+4. **MedGemma 4B/27B** (HAI-DEF) es el LLM clínico open más capaz del mundo para el caso paraguayo.
+5. **TxGemma 27B-Chat** (Gemma terms) es el sleeper hit para drug discovery: queries terapéuticas en español, ADMET, binding affinity. Combina perfectamente con Boltz-2.
+6. **HeAR** (HAI-DEF, 300M+ audio clips) hace deployable el TB cough screening en smartphone hoy.
+7. **MedASR** (HAI-DEF, 4.6% WER en radiology) es English-only — sirve como template para construir Spanish medical ASR.
+8. **AI Co-Scientist** (Gemini 2.0 multi-agent) está validado en AML drug repurposing, liver fibrosis targets, AMR mechanism — caso natural para Paraguay es drug repurposing para Chagas. No público aún (Trusted Tester only).
+9. **PaliGemma 2** es backup general VLM, no médico-tuned.
+10. **Tres recomendaciones actualizadas** para Paraguay: MedGemma 4B, TxGemma 27B-Chat, HeAR (no más Boltz-2 como #1 — Boltz-2 es complementario, no el lead).
+
+---
+
 ## 2026-09-16 — Sesión de consolidación
 
 ### Agregado
@@ -13,6 +47,7 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 - **`docs/research-session-log.md`** — Log cronológico de las sesiones de conversación que construyeron el repo. Por qué existe cada decisión.
 - **`docs/research-sources.md`** — Bibliografía verificada con URLs, fechas de verificación, y qué claim sustenta cada fuente.
 - **`INDEX.md`** — Tabla de navegación rápida con tiempos estimados de lectura.
+- **`CHANGELOG.md`** — Este archivo.
 
 ### Modificado
 
@@ -61,7 +96,8 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 Cuando se complete cualquiera de:
 
 - Lectura de la Política Nacional de Ética en Investigación en Salud (2024).
-- Confirmación de contactos (Galeano, Vazquez, Granada).
+- Confirmación de contactos (Galeano, Vazquez, Granada, Hospital de Clínicas champion).
 - Construcción del demo MedGemma 4B en español paraguayo.
 - Confirmación del estado del biobanco CEDIC × Galatea Bio.
 - Aplicación a una convocatoria externa.
+- Primer paper del repo publicado.

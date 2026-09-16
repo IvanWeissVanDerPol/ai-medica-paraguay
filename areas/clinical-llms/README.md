@@ -1,6 +1,6 @@
 # Área 3 — Modelos de lenguaje clínico en español paraguayo
 
-Volver al [README principal](../README.md) · [mapa de actores](../docs/mapa-actor-instituciones.md) · [marco regulatorio](../docs/marco-regulatorio.md) · [AI stack ref](../docs/ai-stack-reference.md#§3-llms-clínicos-y-médicos) · [research findings](../docs/research-findings.md)
+Volver al [README principal](../README.md) · [mapa de actores](../docs/mapa-actor-instituciones.md) · [marco regulatorio](../docs/marco-regulatorio.md) · [AI stack ref](../docs/ai-stack-reference.md#§3-llms-clínicos-y-médicos) · [research findings](../docs/research-findings.md) · [Google dedicado](../docs/google-deepmind-paraguay.md)
 
 ---
 
@@ -30,21 +30,36 @@ Hay talento y motivación. Faltan tiempo protegido, mentores y herramientas.
 
 ## Herramientas de código abierto — el stack recomendado
 
+### LLMs clínicos
+
 | Herramienta | Función | Tamaño | Licencia | Notas |
 |---|---|---|---|---|
-| **[MedGemma 4B](https://github.com/google-health/medgemma)** | Multimodal médico (Gemma 3 + SigLIP médico) | 4B | Apache wrapper + Health AI Dev Foundations | **Modelo default.** 64.4% MedQA. |
-| [MedGemma 27B](https://huggingface.co/collections/google/medgemma) | Texto médico | 27B | Apache wrapper + Health AI Dev Foundations | 87.7% MedQA. ~10% costo de DeepSeek R1. |
-| [MedGemma 27B multimodal](https://developers.google.com/health-ai-developer-foundations/medgemma) | Multimodal | 27B | Apache wrapper + Health AI Dev Foundations | Nuevo jul 2025; longitudinal EHR. |
-| [MedGemma 1.5 4B](https://developers.google.com/health-ai-developer-foundations/medgemma) | Multimodal actualizado | 4B | Apache wrapper | Mejor lab report + EHR parsing. |
-| [MedSigLIP](https://huggingface.co/collections/google/medgemma) | Codificador visual médico | 400M | Apache 2.0 | Standalone, mobile-deployable. |
+| **[MedGemma 4B](https://huggingface.co/collections/google/medgemma)** | Multimodal médico (Gemma 3 + SigLIP médico) | 4B | **HAI-DEF** | **⭐ Modelo default.** 64.4% MedQA. Fine-tuneable en una sola GPU. |
+| [MedGemma 1.5 4B](https://developers.google.com/health-ai-developer-foundations/medgemma) | Multimodal actualizado | 4B | HAI-DEF | Mejor lab report + EHR parsing. |
+| [MedGemma 27B text](https://huggingface.co/collections/google/medgemma) | Texto médico | 27B | HAI-DEF | 87.7% MedQA. ~10% costo de DeepSeek R1. |
+| [MedGemma 27B multimodal](https://developers.google.com/health-ai-developer-foundations/medgemma) | Multimodal | 27B | HAI-DEF | Nuevo jul 2025; longitudinal EHR. |
+| [MedSigLIP](https://developers.google.com/health-ai-developer-foundations/medsiglip/model-card) | Codificador visual médico | 400M | Apache 2.0 | Standalone, mobile-deployable. |
 | [OpenMedLM](https://github.com/OpenMedLM) | Plataforma de prompting (Yi 34B) | 34B base | Apache 2.0 | 81.7% MMLU medical sin fine-tuning. **Prompting > fine-tuning.** |
 | [Meditron](https://huggingface.co/collections/OpenMedLM/meditron) | Llama 2 medical fine-tune | 70B | Llama community | Fallback. |
 | [BioMistral](https://huggingface.co/BioMistral) | Mistral biomedical | 7B | Apache 2.0 | Compacto. |
-| [Whisper](https://github.com/openai/whisper) | ASR multilingüe | — | MIT | Base para guaraní fine-tune. |
+| [MedLM](https://aistudio.google.com/) | Closed source | — | Proprietary | No para Paraguay (sin fine-tune). |
+
+### ASR médico
+
+| Herramienta | Función | Idioma | Notas |
+|---|---|---|---|
+| **[Whisper](https://github.com/openai/whisper)** | ASR multilingüe | Multi | MIT. Base para fine-tune guaraní. |
+| [MedASR](https://huggingface.co/google/medasr) | Medical speech recognition | **English only** | HAI-DEF. **Template para construir un Spanish medical ASR.** |
+
+### Modelos multimodales relacionados
+
+| Herramienta | Función | Notas |
+|---|---|---|
+| [PaliGemma 2](https://ai.google.dev/gemma/docs/paligemma) | VLM general | 3B/10B/28B. Backup si MedGemma no encaja. |
 
 ### Por qué MedGemma es el default
 
-- **Apache 2.0 wrapper** + Health AI Dev Foundations License (research + comercial OK).
+- **HAI-DEF license**: research + comercial OK.
 - **Español-capaz** (Gemma 3 base).
 - **Fine-tuneable en una sola GPU** (4B en workstation; 27B con H100).
 - **Rinde bien sin fine-tuning**: 81% de informes de rayos X del MedGemma 4B juzgados suficientes para manejo similar por radiólogo certificado.
@@ -56,11 +71,11 @@ Hay talento y motivación. Faltan tiempo protegido, mentores y herramientas.
 
 **Implicación para Paraguay:** un LLM general bien prompted + RAG sobre guías clínicas paraguayas puede ser bueno, **antes de hacer un costoso fine-tune médico**.
 
-## Primer proyecto concreto
+## Primer proyecto concreto (recomendado)
 
 > Fine-tune MedGemma 4B sobre notas clínicas sintéticas en español paraguayo (generadas con LLM + revisadas por médicos locales) para tareas de triaje y resumen. Desplegar en HIVE BUZZ. Evaluar con gold-standard creado por residentes del Hospital de Clínicas.
 
-Entregables:
+**Entregables**:
 - Modelo de pesos abiertos en Hugging Face.
 - Paper de evaluación (intrínseca + clínica).
 - Piloto de despliegue en una sala del Hospital de Clínicas (con IRB + DPIA).
@@ -84,6 +99,11 @@ Entregables:
 
 Construir el **demo mínimo viable**: notebook ejecutable que toma notas clínicas sintéticas (generadas con un LLM con supervisión médica) y produce un resumen estructurado. Subirlo a GitHub como artefacto público.
 
+**Recursos de arranque**:
+- Notebook oficial: [colab.research.google.com/github/google-health/medgemma](https://colab.research.google.com/github/google-health/medgemma/blob/main/notebooks/quick_start_with_hugging_face.ipynb)
+- Fine-tune notebooks en [github.com/google-health/medgemma](https://github.com/google-health/medgemma) (carpeta `notebooks/`)
+- HF: [huggingface.co/collections/google/medgemma](https://huggingface.co/collections/google/medgemma)
+
 ## Notas regulatorias
 
 - Aplican todas las cláusulas de la Ley 7593/2025 (datos de salud = sensibles).
@@ -92,3 +112,4 @@ Construir el **demo mínimo viable**: notebook ejecutable que toma notas clínic
 - Coordinación con la nueva Agencia Nacional de Protección de Datos Personales una vez operativa.
 - Hospital de Clínicas requiere aprobación del Comité de Ética institucional.
 - Política Nacional de Ética en Investigación en Salud (2024) — verificar cláusulas específicas para IA.
+- **HAI-DEF Prohibited Use**: MedGemma no puede usarse como dispositivo médico regulado. **Sí puede asistir al clínico** (decision support, no autonomous diagnosis). El deployer es responsable del regulatory pathway paraguayo (que aún no existe).

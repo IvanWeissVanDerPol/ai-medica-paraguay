@@ -39,14 +39,15 @@ Paraguay tiene capacidades biomédicas reales y concentradas (IICS-UNA, LCSP, CE
 6. **Salud mental y triaje** — LLM clínicos para tamizaje de depresión e ideación suicida, donde solo el 28 % de los pediatras paraguayos tiene conocimiento alto.
 7. **Telemedicina y atención primaria** — modelos para telesalud rural en alianza con la Ley 5482/2015 y Resolución 367/2020.
 8. **Capacitación en investigación clínica** — cerrar la brecha de bioestadística e investigación en residencias (78% sin metodología posgrado), mediante herramientas y plantillas abiertas.
+9. **Health acoustics & TB cough screening** — **NUEVA**. HeAR (Google HAI-DEF) + clasificador lineal + smartphone para screening de TB en comunidades rurales chaqueñas, donde la atención primaria no tiene acceso a chest X-ray.
 
 ## Tres recomendaciones principales de IA open-source para Paraguay
 
-1. **Boltz-2** (MIT, full open) — drug discovery. Único modelo AF3-clase con licencia comercial OK. Hace estructura + afinidad. **Mayor gap-closer único para CEDIC × BioProsNat × Tesabio.**
-2. **MedGemma 4B** (Apache wrapper + Health AI Dev Foundations License) — clinical NLP. Best entry point para Hospital de Clínicas. Español-capaz, fine-tuneable en una sola GPU, corre en HIVE BUZZ.
-3. **NVIDIA BioNeMo Agent Toolkit** (CC BY 4.0) — único framework de agentes bio activamente mantenido, agent-agnostic, gratis para prototyping.
+1. **MedGemma 4B** (HAI-DEF, Apache wrapper) — clinical NLP. Best entry point para Hospital de Clínicas. Español-capaz, fine-tuneable en una sola GPU, corre en HIVE BUZZ.
+2. **TxGemma 27B-Chat** (Gemma terms) — drug discovery. Sleeper hit para CEDIC × BioProsNat × Tesabio. Queries terapéuticas en español, ADMET, binding affinity.
+3. **HeAR** (HAI-DEF) — health acoustics. **Sleeper hit social**: TB cough screening en smartphone para el Chaco, deployable hoy.
 
-Honorable mentions: AlphaGenome (variant interpretation), scFoundry + Geneformer (single-cell), Midnight/OpenMidnight (pathology FM entrenable desde datos públicos).
+Honorable mentions: Boltz-2 + OpenFold3 (estructura AF3-class con licencia comercial), NVIDIA BioNeMo Agent Toolkit (orquestación), AlphaGenome (variant interpretation para CEDIC × Galatea), Path/CXR/Derm Foundation (image embeddings para INCAN/Hospital de Clínicas).
 
 ## Estructura del repositorio
 
