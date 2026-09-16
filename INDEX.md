@@ -15,6 +15,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | [docs/research-findings.md](docs/research-findings.md) | ~280 | ~20 KB | Hallazgos consolidados sobre Paraguay — qué sabemos del terreno |
 | `docs/ai-stack-reference.md` | ~570 | ~33+ KB | Catálogo stack IA open source — herramientas, licencias, usos |
 | `docs/google-deepmind-paraguay.md` | ~250 | ~15 KB | Análisis dedicado del portafolio Google/HAI-DEF para Paraguay |
+| `docs/playbook-acciones.md` | ~330 | ~24 KB | **Playbook completo de acciones** — qué hacer con el stack IA en Paraguay, por tier |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
 | [docs/research-session-log.md](docs/research-session-log.md) | ~140 | ~9 KB | Log cronológico de cómo se construyó el repo |
@@ -34,6 +35,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | 7. Telemedicina | [areas/telemedicine/README.md](areas/telemedicine/README.md) | ~70 | baseline |
 | 8. Capacitación investigación | [areas/medical-research-training/README.md](areas/medical-research-training/README.md) | ~65 | baseline |
 | **9. Health acoustics & TB cough screening (NUEVA)** | [areas/health-acoustics-tb-screening/README.md](areas/health-acoustics-tb-screening/README.md) | ~95 | nuevo sept 2026 |
+| **Playbook ejecutable** | [docs/playbook-acciones.md](docs/playbook-acciones.md) | ~330 | nuevo sept 2026 |
 
 ## Cómo navegar el repo
 
@@ -42,6 +44,8 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 **Si tienes 30 minutos:** README + [research-areas.md](docs/research-areas.md).
 
 **Si tienes 2 horas:** README + research-areas + research-findings + ai-stack-reference.
+
+**Si vas a actuar** (o quieres ver "qué hacer primero"): abre [playbook-acciones.md](docs/playbook-acciones.md) — el documento ejecutable.
 
 **Si vas a tomar una decisión:** research-findings + plan-preparacion.
 

@@ -4,6 +4,24 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión de playbook ejecutable
+
+### Agregado
+
+- **`docs/playbook-acciones.md`** (~24 KB) — **el documento ejecutable**. Un único archivo que consolida TODAS las acciones concretas que Paraguay podría tomar con el stack de IA, organizado en 3 tiers, con mapeo por institución, por enfermedad, y por capacidad. Incluye plan de 4 semanas y matriz de priorización esfuerzo × impacto.
+
+### Modificado
+
+- **`INDEX.md`** — añadido playbook a navegación + tabla de áreas.
+
+### Recomendación clave
+
+Si solo pudiera hacer una acción: **TB cough screening con HeAR** (§1.4 del playbook). Paraguay hiperendémico para TB, HeAR deployable HOY, éticamente alineado con CARE.
+
+Si pudiera hacer tres: **TB HeAR + Nextclade en LCSP + MedGemma 4B**. Cubre vigilancia genómica + clinical NLP + screening rural.
+
+---
+
 ## 2026-09-16 — Sesión de actualización Google/HAI-DEF
 
 ### Agregado
