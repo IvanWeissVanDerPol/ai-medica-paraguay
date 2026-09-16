@@ -17,6 +17,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | `docs/google-deepmind-paraguay.md` | ~250 | ~15 KB | Análisis dedicado del portafolio Google/HAI-DEF para Paraguay |
 | `docs/playbook-acciones.md` | ~330 | ~24 KB | **Playbook completo de acciones** — qué hacer con el stack IA en Paraguay, por tier |
 | `research/100-ideas-poc.md` | ~520 | ~29 KB | **100 ideas de POC rankeadas** — qué construir primero, con scores y análisis por enfermedad/capacidad |
+| `research/peer-landscape.md` | ~580 | ~31 KB | **Lo que otros hacen** — Hospital Italiano, awesome lists, peer projects, gaps, partnerships |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
 | [docs/research-session-log.md](docs/research-session-log.md) | ~140 | ~9 KB | Log cronológico de cómo se construyó el repo |
@@ -55,6 +56,8 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 **Si vas a elegir herramientas de IA:** ai-stack-reference.
 
 **Si vas a elegir QUÉ construir** (de las 100 opciones posibles): abre [research/100-ideas-poc.md](research/100-ideas-poc.md) — el catálogo rankeado.
+
+**Si quieres借鉴 lo que ya hacen otros** (Hospital Italiano, awesome lists, peer projects): [research/peer-landscape.md](research/peer-landscape.md).
 
 **Si vas a citar o verificar:** research-sources.
 

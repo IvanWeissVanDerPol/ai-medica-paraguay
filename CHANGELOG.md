@@ -4,6 +4,29 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión de peer landscape
+
+### Agregado
+
+- **`research/peer-landscape.md`** (~31 KB) — investigación de lo que otros hacen relevante para Paraguay. Cubre:
+ - Awesome lists del espacio (medical-AI, medical-RAG, AI4Med, pathology FMs).
+ - **Hospital Italiano de Buenos Aires** (pIASHIBA) — el modelo regional más cercano, 27 años de trayectoria, productos activos (Argot NLP, Artemisia mamografía, TRx CXR, TANA chatbot).
+ - Tabla de proyectos open-source por categoría con fit score para Paraguay (LLMs médicos, imaging, multi-agent, genomics, EHR, ECG, dermatology, ASR, TB-specific).
+ - **5 gaps identificados** donde Paraguay puede ser first mover: datos locales, modelos en español paraguayo, framework regulatorio, envenenamiento escorpión, biobanco FAIR.
+ - **7 partnerships recomendados** (HIBA, CABANA, SoIBio/AB3C, Google HAI-DEF, NVIDIA BioNeMo, Galatea Bio, Wellcome).
+ - **Stack Paraguay completo** en 8 capas (genómica + drug, clinical NLP, imaging, audio, ECG, infra, EHR, genomics data equity).
+ - **7 "firsts"** que Paraguay podría reclamar.
+
+### Hallazgo clave
+
+**Hospital Italiano de Buenos Aires (HIBA/Argentina)** es el modelo regional más relevante para Paraguay. Mismo idioma, mismo perfil de paciente, 27 años de trayectoria en informática en salud. Programa pIASHIBA (2020) con productos maduros (Argot NLP clínico desde 2019, Artemisia mamografía, TRx CXR, TANA chatbot clínico desde 2023). **Partnership técnico directo recomendado** — adopción de Argot, TANA, TRx como blueprints.
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/peer-landscape.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión de 100 ideas de POC
 
 ### Agregado
