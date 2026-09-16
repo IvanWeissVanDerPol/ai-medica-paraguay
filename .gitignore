@@ -1,0 +1,15 @@
+# Local artifacts
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.tmp
+.cache/
+
+# Editor autosaves
+*.autosave
+
+# Local overrides
+local/

@@ -1,0 +1,61 @@
+# Índice del repositorio
+
+Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
+
+> Última actualización: septiembre 2026. Este índice se actualiza cuando se agregan o mueven documentos.
+
+---
+
+## Entradas principales
+
+| Documento | Líneas | Tamaño | Para qué sirve |
+|---|---|---|---|
+| [README.md](README.md) | ~120 | ~7 KB | Landing page — visión, principios, próximos pasos |
+| [docs/research-areas.md](docs/research-areas.md) | ~280 | ~17 KB | Las 8 áreas — estrategia, qué hacer primero |
+| [docs/research-findings.md](docs/research-findings.md) | ~280 | ~20 KB | Hallazgos consolidados sobre Paraguay — qué sabemos del terreno |
+| [docs/ai-stack-reference.md](docs/ai-stack-reference.md) | ~430 | ~33 KB | Catálogo del stack IA open source — herramientas, licencias, usos |
+| [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
+| [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
+| [docs/research-session-log.md](docs/research-session-log.md) | ~140 | ~9 KB | Log cronológico de cómo se construyó el repo |
+| [docs/research-sources.md](docs/research-sources.md) | ~250 | ~18 KB | Bibliografía verificada — todas las fuentes con URLs |
+| [docs/plan-preparacion.md](docs/plan-preparacion.md) | ~190 | ~9 KB | Plan de 6 fases antes de iniciar proyecto real |
+
+## Áreas (8)
+
+| Área | Documento | Líneas | Estado |
+|---|---|---|---|
+| 1. Vigilancia genómica | [areas/genomic-surveillance/README.md](areas/genomic-surveillance/README.md) | ~50 | baseline |
+| 2. Drug discovery | [areas/drug-discovery/README.md](areas/drug-discovery/README.md) | ~75 | patched con Boltz-2 |
+| 3. LLMs clínicos | [areas/clinical-llms/README.md](areas/clinical-llms/README.md) | ~85 | patched con MedGemma + OpenMedLM |
+| 4. Patología digital | [areas/pathology-imaging/README.md](areas/pathology-imaging/README.md) | ~65 | baseline |
+| 5. Resistencia antimicrobiana | [areas/antimicrobial-resistance/README.md](areas/antimicrobial-resistance/README.md) | ~55 | baseline |
+| 6. Salud mental | [areas/mental-health/README.md](areas/mental-health/README.md) | ~65 | baseline |
+| 7. Telemedicina | [areas/telemedicine/README.md](areas/telemedicine/README.md) | ~70 | baseline |
+| 8. Capacitación investigación | [areas/medical-research-training/README.md](areas/medical-research-training/README.md) | ~65 | baseline |
+
+## Cómo navegar el repo
+
+**Si tienes 5 minutos:** lee el [README.md](README.md).
+
+**Si tienes 30 minutos:** README + [research-areas.md](docs/research-areas.md).
+
+**Si tienes 2 horas:** README + research-areas + research-findings + ai-stack-reference.
+
+**Si vas a tomar una decisión:** research-findings + plan-preparacion.
+
+**Si vas a hablar con alguien en Paraguay:** mapa-actor-instituciones + marco-regulatorio.
+
+**Si vas a elegir herramientas de IA:** ai-stack-reference.
+
+**Si vas a citar o verificar:** research-sources.
+
+## Próximo paso sugerido para nuevos lectores
+
+1. Abre [research-areas.md](docs/research-areas.md) — entiende las 8 áreas y la priorización.
+2. Lee [research-findings.md](docs/research-findings.md) §1, §2 y §3 — entiende el sistema de salud y la carga de enfermedad.
+3. Decide si tu área de interés es una de las 8, o si necesitas refinar el scope.
+4. Si vas a actuar, ve a [plan-preparacion.md](docs/plan-preparacion.md) y sigue las fases 1–6.
+
+## Última actualización
+
+Septiembre 2026.
