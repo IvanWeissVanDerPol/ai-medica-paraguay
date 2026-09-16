@@ -4,6 +4,22 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión de 100 ideas de POC
+
+### Agregado
+
+- **`research/100-ideas-poc.md`** (~29 KB) — **catálogo de 100 ideas concretas de POC/proyecto piloto para Paraguay**, con fit_score 1–10, herramientas de IA, actores paraguayos, esfuerzo estimado. Organizado por enfermedad (Chagas: 28 ideas, TB: 7, dengue: 9, leishmaniasis: 3, cáncer: 8, salud mental: 4, clínico general: 24) y por capacidad. Top-15 con score ≥9 priorizados. Top-3 no obvios: Whisper guaraní, leishmaniasis app, AlphaGenome pharmacogenética.
+
+### Recomendación #1 del análisis
+
+**Si tuvieras que arrancar UNA sola cosa hoy:** TB cough screening con HeAR (idea #1 del catálogo, fit_score 10). Paraguay hiperendémico, HeAR deployable hoy, ético, replicable.
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/100-ideas-poc.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión de playbook ejecutable
 
 ### Agregado
