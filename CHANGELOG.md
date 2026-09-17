@@ -4,6 +4,35 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión: master ranking de TODAS las ideas
+
+### Agregado
+
+- **`research/master-ranking.md`** (~30 KB) — consolidación definitiva de **130+ ideas** (100 POC + 10 first-mover + 9 áreas + Tier 1 + playbook) con scoring consistente en 7 dimensiones. Contiene:
+ - **§1 Sistema de scoring**: 7 dimensiones (impacto salud PY 25%, viabilidad técnica 20%, costo 15%, tiempo a primer resultado 15%, riesgo 10%, first-mover 10%, replicabilidad 5%); escala 0-100; tier mapping S/A/B/C/D/E/F.
+ - **§2 Top 30 ideas (score ≥70)** con análisis individual: score detallado, por qué alto, riesgos, dependencias, costo, timeline, recomendación.
+ - **§3 Medias-altas (60-69)**: 30 ideas en 3 grupos (drug discovery, surveillance, clinical/imaging).
+ - **§4 Medias (50-59)**: 30 ideas en 3 grupos (capacity, telemedicine, specialty).
+ - **§5 Bajas (40-49)**: 30 ideas de replicación y capacidades futuras.
+ - **§6 Más bajas (<40)**: 30 ideas archivadas.
+ - **§7 Top-10 con análisis profundo** — 3 DEBE EJECUTARSE + 7 EJECUTAR ESTE AÑO.
+ - **§8 Anti-recomendaciones** — 10 cosas que NO hacer y por qué.
+ - **§9 Tesis final** — 5 ideas S-tier ejecutables en paralelo en 12 meses.
+
+### Top 5 (S-tier, score ≥84)
+
+1. **#1 TB cough screening HeAR** (92.5) — máximo impacto, mínimo costo, inmediato.
+2. **#2 Antiveneno sintético T. confluens** (89) — first-mover mundial (Baker Lab partnership).
+3. **#3 Stack Chaco integrado** (88) — programa regional unificado (TB + tNGS + CRISPR-Dx + D-Heart).
+4. **#4 TxGemma+Boltz-2+OpenFold3+CEDIC pipeline Chagas** (86) — flagship drug discovery.
+5. **#5 Chagas cardiomyopathy smart-monitoring** (84) — first-mover mundial (smartwatch + ECGFounder).
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/master-ranking.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión: avances médicos 2024-2026 + first-mover opportunities
 
 ### Agregado
