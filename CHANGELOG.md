@@ -4,6 +4,25 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: 40 ideas de odontología y salud bucal
+
+### Agregado
+
+- **`research/odontologia-40-ideas.md`** (~25 KB) — investigación completa del área odontológica + catálogo de 40 ideas rankeadas con el sistema de scoring de 7 dimensiones. Contiene:
+ - **§1 Contexto epidemiológico PY**: ENSABUD 2017 (CPO-D 2.07, prevalencia 63.31%, rural 74.58%), WHO 2022 (caries no tratada 42.7% niños, periodontitis severa 15.1%, edentulismo 8.2%), y la inequidad extrema indígena (Maká CPO-D 10.5-18.8, Pykasú ceo-d 5.06 + sangrado 94.8%) + ventana institucional FOUNA-KOICA (Hospital Odontológico 2026-2031).
+ - **§2 Stack técnico**: 16,000+ panorámicas públicas anotadas (CariesXrays, OdontoAI, multi-center), performances SOTA (caries F1 0.85/recall 0.96; periodontitis YOLOv8 0.95; cáncer oral app AUC 0.867; placa DSC 95%), intervenciones validadas (teledentología WhatsApp Chile r=0.42-0.59).
+ - **§3 Ranking de 40 ideas** con score y tier.
+ - **§4 Tier S/A explicado** (8 ideas en detalle): ENSABUD-AI (84.5), app fotos caries (82.5), teledentología WhatsApp bilingüe (82.5), chatbot español-guaraní (80.5), tamizaje escolar (79), detector panorámicas FOUNA (79), periodontitis AAP 2017 (77), programa indígena Chaco (75.5), cáncer oral (74.5), hospital digital-nativo (74).
+ - **§5-§7** Tiers B/C/D.
+ - **§8 Anti-recomendaciones** (5).
+ - **§9 Tesis**: odontología = la especialidad donde PY captura valor de IA más rápido (datasets públicos ya existen, tamizaje no requiere odontólogo, ventana FOUNA-KOICA). Portafolio S+A recomendado: <$150k, 12-18 meses, 6-10 papers.
+
+### Modificado
+
+- **`INDEX.md`** — añadido a navegación.
+
+---
+
 ## 2026-09-17 — Sesión: top 5 en detalle completo
 
 ### Agregado
