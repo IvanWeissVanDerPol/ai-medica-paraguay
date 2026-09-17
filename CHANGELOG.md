@@ -4,6 +4,28 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión: análisis profundo Tier 1
+
+### Agregado
+
+- **`research/analisis-tier1-profund.md`** (~30 KB) — análisis pre-ejecución detallado de los 10 proyectos Tier 1. Contiene:
+ - **§1 Mapa de riesgos por proyecto** — 7 categorías de riesgo por proyecto, probabilidad, impacto, mitigación.
+ - **§2 Mapa de dependencias** — qué bloquea qué; qué corre en paralelo.
+ - **§3 Requisitos computacionales** — GPU/RAM/storage/costo compute exacto por proyecto.
+ - **§4 Datasets específicos por proyecto** — URLs, tamaños, datasets locales necesarios.
+ - **§5 Champion profiles** — perfil ideal de persona para cada proyecto, cómo identificarla.
+ - **§6 Funding map** — $ → milestones; fuentes de financiamiento mapeadas.
+ - **§7 Reproducibilidad** — universal checklist + por proyecto.
+ - **§8 Timeline realista** — 12 meses con paralelización.
+ - **§9 Decisión final** — uno, tres, seis, doce proyectos según recursos.
+ - **§10 Tesis** — ventana de 12–18 meses que se cierra.
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/analisis-tier1-profund.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión final: MEJORES-COSAS-PARAGUAY.md
 
 ### Agregado
