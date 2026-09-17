@@ -4,6 +4,18 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: top 5 en detalle completo
+
+### Agregado
+
+- **`research/top-5-detalle-completo.md`** (~41 KB) — los 5 proyectos mejor rankeados llevados a nivel de protocolo de ejecución. Para cada uno: epidemiología del problema, arquitectura técnica exacta (componentes, modelos, licencias), estado del arte global y gap, fases con duración y costo, presupuesto línea por línea, equipo mínimo, socios/champions, ética y marco regulatorio, tabla de riesgos con mitigaciones, gates de decisión con kill criteria, outputs esperados y desglose del score. Incluye §6 secuencia de ejecución paralela a 12 meses (qué arranca sin dependencias y qué no) y §7 comparativa final de las 5.
+
+### Modificado
+
+- **`INDEX.md`** — añadido a navegación.
+
+---
+
 ## 2026-09-16 — Sesión: top 10 explicado en profundidad
 
 ### Agregado
