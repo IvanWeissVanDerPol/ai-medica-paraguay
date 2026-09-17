@@ -4,6 +4,34 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión: avances médicos 2024-2026 + first-mover opportunities
+
+### Agregado
+
+- **`research/avances-medicina-posibilidades-paraguay.md`** (~29 KB) — análisis de las 7 fronteras médico-tecnológicas más transformadoras 2024-2026 con foco en Paraguay. Contiene:
+ - **§1 7 fronteras médico-tecnológicas**: AlphaFold 3 + AlphaGenome + RFdiffusion3, Casgevy + base/prime editing, mRNA platforms, mHealth + wearables, MinION + tNGS, CRISPR-Dx (SHERLOCK/DETECTR), AI-designed therapeutics.
+ - **§2 10 oportunidades first-mover para Paraguay**: antiveneno sintético T. confluens, Chagas smart-monitoring, CRISPR-Dx NTDs chaqueños, tNGS directo desde esputo, mRNA vaccine Leishmania, biobanco FAIR, organoid platform, binders para Bothrops, smartwatch pregnancy monitoring, digital twin nacional de salud.
+ - **§3 Análisis por enfermedad**: Chagas, TB, leishmaniasis, dengue, chikungunya, escorpión envenoming, cáncer cervical/mama/próstata, diabetes/hipertensión, mental health.
+ - **§4 Análisis por institución**: CEDIC, IICS, LCSP, Tesabio, BioProsNat, FIUNA, Hospital de Clínicas, Hospital Nacional de Itauguá, INCAN, CONAREM.
+ - **§5 Cronograma realista 12 meses**.
+ - **§6 Recomendaciones estratégicas finales**: 3 opciones de first-mover según prioridad (impacto salud pública vs. impacto científico vs. bajo riesgo).
+
+### Hallazgos nuevos clave
+
+- **AI-designed synthetic antivenoms** (Baker Lab, Nature 2024) — oportunidad first-mover para Paraguay en **T. confluens** (1,383 casos/año, 4 muertes infantiles) + **Bothrops chaqueña**. Partnership con Susana Vázquez Torres (lead author Baker Lab) + Tesabio + CEDIC.
+- **tNGS directo desde esputo para TB** (ICMR-NIRT India, 2025) — 95% sensibilidad RIF sin BSL3. Replicable en LCSP.
+- **SHINE-TB CRISPR-Dx** (Broad Institute, 2025) — 100% sensibilidad vs. culture, suitcase-sized POC. Aplicación directa al Chaco.
+- **ECGFounder** (NEJM AI Nov 2025) — universal ECG foundation model. Combinable con smartwatches para Chagas monitoring.
+- **AlphaGenome** (Nature 2026) — API para non-commercial research. Aplicación a biobanco CEDIC × Galatea.
+- **Casgevy + prime editing** (Prime Medicine mayo 2025) — CRISPR curativo ya en clínica. No aplicable directamente a Paraguay, pero CRISPR-Dx sí.
+- **GSK mRNA influenza** fase 3 (set 2024) + **mRNA-4157 melanoma** fase 3 — platform validada. Aplicación a Leishmania vaccine design con Tesabio.
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/avances-medicina-posibilidades-paraguay.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión: análisis profundo Tier 1
 
 ### Agregado
