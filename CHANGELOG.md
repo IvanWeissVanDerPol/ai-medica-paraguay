@@ -4,6 +4,41 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión: top 10 explicado en profundidad
+
+### Agregado
+
+- **`research/top-10-explicado.md`** (~45 KB, 570 líneas) — explicación detallada de cada una de las 10 ideas top del master ranking. Para cada idea:
+ - **Qué es exactamente** (definición técnica + stack)
+ - **Por qué importa** (burden, gap, solución, first-mover)
+ - **Evidencia que existe** (papers, validaciones previas, lo novel)
+ - **Cómo se implementa paso a paso** (fases, outputs por fase)
+ - **Qué necesitas** (GPU, storage, personas, partners, funding)
+ - **Qué bloquea** (críticos + reales)
+ - **Riesgos principales** (tabla con mitigaciones)
+ - **Qué sale** (papers, modelos, programas, capacity)
+ - **Por qué exactamente este score** (breakdown de las 7 dimensiones)
+ - **Recomendación** (ejecutar ya, ejecutar este año, piloto primero, etc.)
+
+### Top 10 (ordenados por score)
+
+1. **TB cough screening HeAR** (92.5) — POC en 1 semana, $5-30k, 6 meses.
+2. **Antiveneno sintético T. confluens** (89) — first-mover mundial, Baker Lab partnership, $400-1000k, 24-36 meses.
+3. **Stack Chaco TB integrado** (88) — programa regional, $400-1000k, 12-18 meses.
+4. **TxGemma+Boltz-2+OpenFold3+CEDIC** (86) — flagship drug discovery Paraguay, $200-500k, 12-24 meses.
+5. **Chagas cardiomyopathy smart-monitoring** (84) — first-mover mundial smartwatch, $300k-1M, 24-36 meses.
+6. **mRNA Leishmania vaccine design** (82) — first-mover mundial, $200-500k, 24-36 meses.
+7. **tNGS directo desde esputo TB** (81) — MinION LCSP, $30-80k, 6-12 meses.
+8. **CRISPR-Dx pipeline NTDs chaqueños** (80) — SHINE-TB + SHERLOCK, $50-100k, 6-12 meses.
+9. **Nextclade + nf-core LCSP** (78) — quick win, $10-30k, 2-4 semanas.
+10. **Biobanco FAIR + AlphaGenome** (76) — CEDIC × Galatea, $100-300k, 24-36 meses.
+
+### Modificado
+
+- **`INDEX.md`** — añadido `research/top-10-explicado.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión: master ranking de TODAS las ideas
 
 ### Agregado

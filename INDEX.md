@@ -21,6 +21,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | `research/analisis-tier1-profund.md` | ~440 | ~30 KB | **Análisis profundo** de los Tier 1 POC: riesgos, dependencias, compute, datasets, champions, funding, reproducibilidad, timeline |
 | `research/avances-medicina-posibilidades-paraguay.md` | ~480 | ~29 KB | **Avances médicos 2024-2026 + 10 oportunidades first-mover** específicas para Paraguay, mapeadas por enfermedad e institución |
 | `research/master-ranking.md` | ~450 | ~30 KB | **Master ranking** — las 130+ ideas rankeadas con scoring consistente, top-30 con análisis profundo, anti-recomendaciones |
+| `research/top-10-explicado.md` | ~570 | ~45 KB | **Top 10 explicadas en profundidad** — qué es, por qué importa, evidencia, implementación paso a paso, qué necesitas, riesgos, qué sale |
 | `MEJORES-COSAS-PARAGUAY.md` | ~330 | ~20 KB | **Guía definitiva** — qué hacer, en qué orden, por qué — la síntesis final |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
@@ -70,6 +71,8 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 **Si quieres el mapa de avances médicos 2024-2026 + oportunidades first-mover para Paraguay:** [research/avances-medicina-posibilidades-paraguay.md](research/avances-medicina-posibilidades-paraguay.md).
 
 **Si quieres el master ranking de TODAS las ideas con scoring consistente:** [research/master-ranking.md](research/master-ranking.md).
+
+**Si quieres el top 10 explicado en profundidad** (cada idea con implementación paso a paso): [research/top-10-explicado.md](research/top-10-explicado.md).
 
 **Si vas a citar o verificar:** research-sources.
 
