@@ -4,6 +4,26 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-16 — Sesión final: MEJORES-COSAS-PARAGUAY.md
+
+### Agregado
+
+- **`MEJORES-COSAS-PARAGUAY.md`** (~20 KB, raíz del repo) — **la guía definitiva**. La síntesis final que responde "¿qué deberíamos hacer?". Contiene:
+ - TL;DR de 30 segundos con 3 recomendaciones top
+ - Top-10 cosas concretas ejecutables con costo/tiempo/actores
+ - Plan de 4 semanas
+ - Roadmap por nivel de inversión ($0 → $200k+)
+ - Roadmap por enfermedad, capacidad, partnership
+ - 5 cosas NO hacer
+ - Métricas de éxito
+ - Tesis final del repo
+
+### Modificado
+
+- **`INDEX.md`** — añadido `MEJORES-COSAS-PARAGUAY.md` a navegación.
+
+---
+
 ## 2026-09-16 — Sesión de peer landscape
 
 ### Agregado
