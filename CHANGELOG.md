@@ -4,6 +4,24 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: mapa de sinergias y extensiones
+
+### Agregado
+
+- **`research/sinergias-top5-extensiones.md`** (~23 KB) — análisis sistémico del top 5:
+ - **§1 Arquitectura del sistema**: #1 anotación = motor central (produce ground truth), #5 copiloto = volante de datos (produce datos continuos), #2/#3/#4 = salidas (ingreso/impacto/publicación), N7 dataset = activo acumulado. Diagrama de flujos.
+ - **§2 Análisis por idea**: extensiones adicionales por proyecto (expert-in-the-loop para anotación; análisis facial/seguimiento de color/marketing automático para estética; extensión radiográfica/tamizaje escolar privado/predicción de riesgo para caries; change detection de lesiones/estudio de temperatura real del mate para cáncer; códigos automáticos/recalls inteligentes/dashboards para el copiloto) + sinergias específicas con insight clave por proyecto.
+ - **§3 Matriz de sinergias** ●●●/●●/● : #1 es el nodo más denso (3 sinergias críticas); pareja #3↔#4 inseparable (mismo flujo de pacientes); #5 pegamento universal; #2 = caballo de Troya comercial (canal de adquisición).
+ - **§4 Doce proyectos nuevos emergentes** de las combinaciones: app "boca paraguaya", informe anual "Estado de la boca paraguaya", modelo multimodal foto+factores, change detection longitudinal de lesiones, primer estudio de temperatura real del mate, marketplace de segunda opinión, tamizaje escolar privado, academia "IA para dentistas", red como CRO dental, módulo pediátrico, PES/WES automatizado, extensión del copiloto a colegas de otras áreas.
+ - **§5 Sinergias con el catálogo médico**: Whisper guaraní compartido (un fine-tune, tres productos), arquitectura offline-first heredada de HeAR, base técnica compartida con apps dermatológicas, framework Ley 7593 reutilizable, y el modelo de red privada como piloto replicable a otras especialidades.
+ - **§6 Orden de construcción** con dependencias: Fase 1 #1+#5demo → Fase 2 #5 en uso + #3 → Fase 3 #2+#4 con captura compartida → Fase 4 circuitos de campo → Fase 5 consolidación. Regla de oro: cada proyecto nuevo reutiliza 80% de infraestructura.
+
+### Modificado
+
+- **`INDEX.md`** — añadido a navegación.
+
+---
+
 ## 2026-09-17 — Sesión: re-estrategia red privada odontología (top 5 Gabi)
 
 ### Contexto
