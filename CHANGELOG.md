@@ -4,6 +4,28 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: EL PLAN MAESTRO (síntesis final internalizada)
+
+### Agregado
+
+- **`research/EL-PLAN-MAESTRO.md`** (~18 KB) — re-derivación completa del plan con TODO el contexto internalizado. Estructura:
+ - **§1 Modelo mental correcto**: quién es quién (Gaby = TODA la odontología; Iván/AIW = TODA la tecnología), la regla de oro (gate clínico de Gaby en todo), tabla de lo que YA existe (Ometz live con apertura bloqueada en 6 datos, 1,090 leads listos, transcriptor Whisper en prod, aiw-org fábrica 24/7, site builder), y el contexto de vida (transición de Gaby post-O3; capital del caso = acelerador potencial, nunca supuesto del plan).
+ - **§2 La tesis estratégica en una página**: AIW tenía amplitud (24 clientes pymes) pero no profundidad de dominio; Gaby es la primera socia de dominio → vertical salud completa, con Ometz como caso ancla y la red de colegas como mercado siguiente.
+ - **§3 El error corregido de v1/v2**: arrancaban por la visión; el plan correcto arranca por las dos necesidades reales de Ometz. **Track A** (que Ometz abra y prospere) + **Track B** (el foso: dataset, calibración, modelos, ciencia) — con la regla de que Track B consume micro-dosis de tiempo de Gaby (10-20 min/sem), nunca compite con Track A.
+ - **§4 Track A en detalle**: A1 motor de captación (ya construido, falta fecha), A2 copiloto clínico sobre transcriptor-agent (la primera pieza nueva — notas SOAP + informe de segunda opinión escrita que ES el diferenciador de Ometz + instrucciones WhatsApp + recalls), A3 motor de retención (crons sobre templates existentes), A4 suite estética (la herramienta de venta, meses 2-3).
+ - **§5 Track B en detalle**: B1 dataset por gravedad (cada consulta → dato estructurado), B2 estudio de anotación (secuencia corregida: primero interno para nuestros modelos, después externo con κ documentado), B3 screening caries, B4 cáncer oral (último — exige coordinación multi-persona).
+ - **§6 Secuencia maestra 16 meses** con tabla semana a semana y tiempo-Gaby por fase (máx 2h/sem).
+ - **§7 Números honestos**: inversión nueva ~$30-40k; ingresos en orden (Ometz mismo → anotación mes 6+ → vertical empaquetada mes 16+).
+ - **§8 Riesgos reales**: el #1 es que Ometz no abra (los 6 datos) — por eso §10.
+ - **§9 Visión sin humo**: año 1 Ometz llena; año 2 sistema empaquetado + paper; año 3 AIW con la vertical salud. La posición final: capa de inteligencia digital de la salud privada paraguaya.
+ - **§10 La próxima acción concreta**: la sesión de desbloqueo con Gaby (los 6 datos de MASTER-TODO-RESTANTE.md + fecha + sesión de formato del copiloto). El cuello de botella no es tecnología — es esa llamada.
+
+### Modificado
+
+- **`INDEX.md`** — EL-PLAN-MAESTRO promovido a documento maestro; v1/v2 marcadas como historial.
+
+---
+
 ## 2026-09-17 — Sesión: corrección de roles + análisis org AIW (capstone v2)
 
 ### Contexto

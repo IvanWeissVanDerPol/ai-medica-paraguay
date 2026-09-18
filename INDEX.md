@@ -2,7 +2,7 @@
 
 Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 
-> **Si solo vas a leer UN archivo del área odontológica:** [research/LA-IDEA-COMPLETA-v2.md](research/LA-IDEA-COMPLETA-v2.md) — la versión corregida con el org AI Whisperers real (roles Iván/Gaby + inventario de infraestructura ya construida + plan v2).
+> **El documento maestro del área odontológica:** [research/EL-PLAN-MAESTRO.md](research/EL-PLAN-MAESTRO.md) — la síntesis final internalizada: roles reales (Iván=AIW/fábrica, Gaby=LA doctora), inventario de lo ya construido (Ometz, transcriptor, leads), los dos tracks (Ometz prospera / foso de largo plazo), secuencia de 16 meses, y la próxima acción concreta.
 
 > Última actualización: septiembre 2026. Este índice se actualiza cuando se agregan o mueven documentos.
 
@@ -30,7 +30,8 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | `research/red-privada-odontologia-top5-gabi.md` | ~290 | ~18 KB | **Re-estrategia red privada** — re-rank de las 40 ideas sin vía institucional, 8 ideas nuevas (Data Foundry, estética IA, peritaje), top 5 para Gabi + secuencia 90 días |
 | `research/sinergias-top5-extensiones.md` | ~360 | ~23 KB | **Mapa de sinergias** — arquitectura del sistema (motor/volante/salidas), extensiones por idea, matriz de sinergias, 12 proyectos emergentes, orden de construcción |
 | `research/LA-IDEA-COMPLETA.md` | ~530 | ~31 KB | **CAPSTONE v1 (superado por v2)** — 9 partes: oportunidad, arquitectura del sistema, 5 proyectos en detalle, 12 emergentes, secuencia 18 meses, números, riesgos, visión 5 años, checklist lunes |
-| `research/LA-IDEA-COMPLETA-v2.md` | ~180 | ~10 KB | **CAPSTONE v2 (actual)** — corrección de roles (Iván=AI puro, Gaby=LA odontóloga) + inventario real del org Ai-Whisperers (transcriptor-agent, dentist/Ometz, gaby-client-engine, aiw-org) + plan v2 con fases más cortas |
+| `research/LA-IDEA-COMPLETA-v2.md` | ~180 | ~10 KB | Capstone v2 — corrección de roles + inventario org AIW (superado por EL-PLAN-MAESTRO) |
+| `research/EL-PLAN-MAESTRO.md` | ~290 | ~18 KB | **EL PLAN MAESTRO (actual)** — síntesis final internalizada: roles reales, inventario, 2 tracks (Ometz/foso), secuencia 16 meses, números honestos, riesgos reales, próxima acción |
 | `MEJORES-COSAS-PARAGUAY.md` | ~330 | ~20 KB | **Guía definitiva** — qué hacer, en qué orden, por qué — la síntesis final |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
