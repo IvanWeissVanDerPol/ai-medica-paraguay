@@ -4,6 +4,18 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: protocolo cáncer oral smartphone
+
+### Agregado
+
+- **`research/cancer-oral-smartphone-protocolo.md`** (~22 KB) — la idea #9 del catálogo odontológico llevada a protocolo de ejecución completo. 12 secciones: resumen ejecutivo, el problema (cáncer oral + Paraguay, con el factor específico del mate muy caliente — IARC 2A, estudios del Cono Sur con datos paraguayos), la solución (flujo de campo exacto), evidencia global (blueprint DiagnOCe AUC 0.867; ~13,500 imágenes públicas: Egipto 9,201 + Sri Lanka 3,000 + HF 1,348), arquitectura técnica (3 niveles de modelo + app + circuito de confirmación con teleconsulta FOUNA), fases con gates de decisión y kill criteria, presupuesto línea por línea (~$49k total, <$15k POC), equipo/champions (FOUNA medicina oral + INCAN + KOICA), ética (IRB, Ley 7593, CARE), riesgos con mitigaciones, outputs (incluye primer registro paraguayo de OPMD + ángulo de investigación único del mate), y justificación del score 74.5.
+
+### Modificado
+
+- **`INDEX.md`** — añadido a navegación.
+
+---
+
 ## 2026-09-17 — Sesión: 40 ideas de odontología y salud bucal
 
 ### Agregado
