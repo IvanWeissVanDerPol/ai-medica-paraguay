@@ -2,6 +2,8 @@
 
 Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 
+> **Si solo vas a leer UN archivo del área odontológica:** [research/LA-IDEA-COMPLETA.md](research/LA-IDEA-COMPLETA.md) — el capstone que ata todo (oportunidad, sistema, 5 proyectos, secuencia, números, visión 5 años).
+
 > Última actualización: septiembre 2026. Este índice se actualiza cuando se agregan o mueven documentos.
 
 ---
@@ -27,6 +29,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | `research/cancer-oral-smartphone-protocolo.md` | ~350 | ~22 KB | **Protocolo: tamizaje de cáncer oral con smartphone** — epidemiología (mate muy caliente), datasets públicos, arquitectura, fases con gates, presupuesto |
 | `research/red-privada-odontologia-top5-gabi.md` | ~290 | ~18 KB | **Re-estrategia red privada** — re-rank de las 40 ideas sin vía institucional, 8 ideas nuevas (Data Foundry, estética IA, peritaje), top 5 para Gabi + secuencia 90 días |
 | `research/sinergias-top5-extensiones.md` | ~360 | ~23 KB | **Mapa de sinergias** — arquitectura del sistema (motor/volante/salidas), extensiones por idea, matriz de sinergias, 12 proyectos emergentes, orden de construcción |
+| `research/LA-IDEA-COMPLETA.md` | ~530 | ~31 KB | **CAPSTONE: la idea completa** — 9 partes: oportunidad, arquitectura del sistema, 5 proyectos en detalle, 12 emergentes, secuencia 18 meses, números, riesgos, visión 5 años, checklist lunes |
 | `MEJORES-COSAS-PARAGUAY.md` | ~330 | ~20 KB | **Guía definitiva** — qué hacer, en qué orden, por qué — la síntesis final |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |

@@ -4,6 +4,27 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: LA IDEA COMPLETA (capstone)
+
+### Agregado
+
+- **`research/LA-IDEA-COMPLETA.md`** (~31 KB) — el documento capstone que ata todo el trabajo del área odontológica. 9 partes:
+ - **I. La oportunidad**: contexto mundial (modelos abiertos + datasets públicos), contexto paraguayo (carga, vacío institucional, inexistencia de dataset local), el activo de la red (Iván puente clínica-IA, Gabi perfil de anotadora experta, colegas = capa ground truth, coordinación probada), y la tesis en una frase.
+ - **II. El sistema completo**: diagrama maestro + los 4 roles (motor/volante/salidas/activo) explicados + los 4 principios (nada pide permiso, nunca construir dos veces lo mismo, cada proyecto se paga o alimenta al que se paga, el criterio clínico es el moat).
+ - **III. Los 5 proyectos en detalle completo**: cada uno con qué es exactamente, cómo funciona, los números, los primeros pasos y por qué esa persona.
+ - **IV. Los 12 proyectos emergentes** en tabla (de dónde emergen, cuándo).
+ - **V. Secuencia 18 meses** en 5 fases con gates y marcadores de éxito.
+ - **VI. Los números**: inversión total ~$53.5k / fuentes de ingreso activables en secuencia (anotación, estética, copiloto, escolar, CRO, informe) / 3 escenarios / el retorno no monetario para cada actor.
+ - **VII. Riesgos** con probabilidades y mitigaciones + el meta-riesgo (intentar todo a la vez).
+ - **VIII. Visión a 5 años**: año por año hasta "la capa de inteligencia clínica del sistema de salud privado paraguayo".
+ - **IX. Checklist del lunes**: exactamente qué necesita cada quien para arrancar Fase 1 (sin permisos, sin comités, sin compras >$100).
+
+### Modificado
+
+- **`INDEX.md`** — LA-IDEA-COMPLETA promovido a documento de entrada único del área odontológica.
+
+---
+
 ## 2026-09-17 — Sesión: mapa de sinergias y extensiones
 
 ### Agregado
