@@ -2,7 +2,8 @@
 
 Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 
-> **El documento maestro del área odontológica:** [research/EL-PLAN-MAESTRO.md](research/EL-PLAN-MAESTRO.md) — la síntesis final internalizada: roles reales (Iván=AIW/fábrica, Gaby=LA doctora), inventario de lo ya construido (Ometz, transcriptor, leads), los dos tracks (Ometz prospera / foso de largo plazo), secuencia de 16 meses, y la próxima acción concreta.
+> **El documento maestro del área odontológica:** [research/EL-PLAN-MAESTRO.md](research/EL-PLAN-MAESTRO.md) — roles reales, inventario, 2 tracks, secuencia 16 meses.
+> **Las 100 ideas para Gaby con evidencia real:** [research/_gaby100/100-ideas-gaby.md](research/_gaby100/100-ideas-gaby.md) — 131 papers (5 APIs académicas), 56 dentales relevantes, top-12 priorizada.
 
 > Última actualización: septiembre 2026. Este índice se actualiza cuando se agregan o mueven documentos.
 

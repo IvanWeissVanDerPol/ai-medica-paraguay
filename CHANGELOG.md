@@ -4,6 +4,41 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-18 — Sesión: corpus de investigación con 5 APIs + 100 ideas para Gaby
+
+### Contexto
+
+Usuario provee 5 keys académicas guardadas en BWS (proyecto hermes, 226 total): NCBI_API_KEY (PubMed E-utilities 10 req/s), CORE_API_KEY, OPENALEX_API_KEY, UNPAYWALL_EMAIL (auth por email), EBI_FAIR_USE_CONTACT (Europe PMC). Pedido: encontrar investigación relevante para las ideas + generar 100 ideas para Gaby.
+
+### Construido
+
+- **Harness de investigación** (`research/_gaby100/harness.py` + `queries.json`): motor reutilizable que consulta las 4 APIs en paralelo (PubMed esearch+esummary, OpenAlex sorted by citations, Europe PMC, CORE con trailing-slash fix), dedupe por título, filtro dental por keywords. 2 pasadas de queries (amplia + fina). Keys cargadas desde BWS vía credential-redacted-grep; **keys.env gitignored y verificada fuera del commit** (leak scan 3 capas: token-shape, valores textuales, staged-content).
+- **Corpus**: `corpus_dental.json` (56 papers dentales relevantes) + `research_corpus.json` (pasada fina) + `corpus_pass1.json` (131 brutos, gitignored por tamaño).
+- **`100-ideas-gaby.md`**: 100 ideas en 8 categorías mapeadas a los tracks del plan maestro, cada una con evidencia del corpus donde existe (⭐), tabla de evidencias clave con citas, y top-12 priorizada.
+
+### Hallazgos de evidencia clave
+
+- Caries por fotos smartphone [108c] + segmentación por superficie [114c] → app screening (B3) con base directa.
+- **Auditoría clínica de sistema de simulación de sonrisa IA** [18c] → A4 ya auditado en otro lado.
+- ML shade vs metamerismo [6c] → match VITA con paper propio.
+- Cáncer oral smartphone [178c] + OPMD [374c].
+- **Manejo de miedo dental [593c]** → el diferenciador "Te escucho" tiene base científica masiva.
+- Intervención mínima [529c] → la filosofía Ometz es escuela establecida.
+- Periodoncia DL [514c], predicción dientes comprometidos [511c], caries interproximal [152c].
+- Review sistemática IA-odontología [666c] → campo maduro.
+
+### Nota operativa
+
+- CORE API requiere trailing slash en el path + `-L` (redirect HTML si falta).
+- El harness en sí = idea #79-80 (asistente de evidencia) ya funcional — reutilizable para cualquier tema futuro de la práctica.
+
+### Modificado
+
+- **`INDEX.md`** — enlace a las 100 ideas en el encabezado.
+- **`.gitignore`** — keys.env y corpus_pass1.json excluidos.
+
+---
+
 ## 2026-09-17 — Sesión: EL PLAN MAESTRO (síntesis final internalizada)
 
 ### Agregado
