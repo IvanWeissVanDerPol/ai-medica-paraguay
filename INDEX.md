@@ -25,6 +25,7 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 | `research/top-5-detalle-completo.md` | ~510 | ~41 KB | **Top 5 en detalle completo** — protocolo nivel ejecución: epidemiología, arquitectura técnica, fases con gates, presupuesto línea por línea, equipo, ética, kill criteria |
 | `research/odontologia-40-ideas.md` | ~330 | ~25 KB | **40 ideas de IA en odontología y salud bucal** — contexto epidemiológico PY (ENSABUD, indígenas, FOUNA-KOICA), stack técnico disponible, ranking de 40 ideas |
 | `research/cancer-oral-smartphone-protocolo.md` | ~350 | ~22 KB | **Protocolo: tamizaje de cáncer oral con smartphone** — epidemiología (mate muy caliente), datasets públicos, arquitectura, fases con gates, presupuesto |
+| `research/red-privada-odontologia-top5-gabi.md` | ~290 | ~18 KB | **Re-estrategia red privada** — re-rank de las 40 ideas sin vía institucional, 8 ideas nuevas (Data Foundry, estética IA, peritaje), top 5 para Gabi + secuencia 90 días |
 | `MEJORES-COSAS-PARAGUAY.md` | ~330 | ~20 KB | **Guía definitiva** — qué hacer, en qué orden, por qué — la síntesis final |
 | [docs/mapa-actor-instituciones.md](docs/mapa-actor-instituciones.md) | ~210 | ~9 KB | Personas e instituciones — quién es quién |
 | [docs/marco-regulatorio.md](docs/marco-regulatorio.md) | ~130 | ~7 KB | Ley 7593/2025 + marco regulatorio |
@@ -82,6 +83,8 @@ Navegación rápida a todos los documentos del repo `ai-medica-paraguay/`.
 **Si quieres las 40 ideas de odontología/salud bucal rankeadas:** [research/odontologia-40-ideas.md](research/odontologia-40-ideas.md).
 
 **Si quieres el protocolo completo de tamizaje de cáncer oral con smartphone:** [research/cancer-oral-smartphone-protocolo.md](research/cancer-oral-smartphone-protocolo.md).
+
+**Si quieres la re-estrategia por vía de red privada (top 5 para Gabi):** [research/red-privada-odontologia-top5-gabi.md](research/red-privada-odontologia-top5-gabi.md).
 
 **Si vas a citar o verificar:** research-sources.
 

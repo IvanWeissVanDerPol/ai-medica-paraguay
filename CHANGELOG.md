@@ -4,6 +4,27 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: re-estrategia red privada odontología (top 5 Gabi)
+
+### Contexto
+
+Corrección de rumbo del usuario: FOUNA es ineficiente (experiencia directa). El actor real es la **red privada de profesionales**: Iván (odontólogo 20+ años), Gabi (Dra. González Pane — operatoria + estética, 20 años clínicos, doctorado), colegas diagnosticadores multi-especialidad, y el grupo de trabajo ya activo. El catálogo original asumía vía institucional — se re-analiza todo con lente de red privada.
+
+### Agregado
+
+- **`research/red-privada-odontologia-top5-gabi.md`** (~18 KB):
+ - **§1 Reframe**: por qué la red privada cambia el scoring (champion resuelto, datos clínicos propios, criterio calibrado, decisión rápida). Regla nueva: dependencia FOUNA = penalización.
+ - **§2 Re-rank**: sube app caries (85), teledentología (84), cáncer oral (80), placa (77); baja ENSABUD-AI (72), detector FOUNA (65), hospital digital-nativo (50).
+ - **§3 Ocho ideas nuevas** que el lente institucional no veía: N1 estudio de anotación/validación experta (Data Foundry), N2 suite estética IA, N3 segundo lector como servicio privado, N4 copiloto de historia clínica dictada, N5 auditoría para prepagas, N6 peritaje odontológico asistido, N7 dataset paraguayo licenciable, N8 app multi-modelo "boca paraguaya".
+ - **§4 Top 5 para Gabi** en profundidad: (1) estudio de anotación y validación experta — su perfil ES el de la anotadora que la industria no consigue, arranca este mes a costo cero, kappa>0.8 medible; (2) suite de IA estética — su segunda especialidad, simulación de sonrisa generativa + match VITA, POC <$5k; (3) red de tamizaje de caries entre pares — validación en consultorios propios, paper sin FOUNA; (4) circuito privado de cáncer oral — el protocolo ya escrito, circuito interno; (5) copiloto de historia clínica — demo en 2-4 semanas, sin fricción regulatoria. Menciones: peritaje IA, auditoría prepagas.
+ - **§5 Secuencia 90 días** semana a semana, empezando por calibración del equipo anotador.
+
+### Modificado
+
+- **`INDEX.md`** — añadido a navegación.
+
+---
+
 ## 2026-09-17 — Sesión: protocolo cáncer oral smartphone
 
 ### Agregado
