@@ -1,0 +1,624 @@
+{
+ "A2_copiloto": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41368-023-00239-y",
+   "title": "ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model",
+   "journal": "International Journal of Oral Science",
+   "pubdate": "2023-07-28",
+   "cited_by": 327,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/educsci13020150",
+   "title": "Impact of Artificial Intelligence on Dental Education: A Review and Guide for Curriculum Update",
+   "journal": "Education Sciences",
+   "pubdate": "2023-01-31",
+   "cited_by": 348,
+   "is_oa": true
+  }
+ ],
+ "A3_retention": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/jcm11154461",
+   "title": "Oral Manifestations of COVID-19: A Cross-Sectional Study of Their Prevalence and Association with Disease Severity",
+   "journal": "Journal of Clinical Medicine",
+   "pubdate": "2022-07-30",
+   "cited_by": 30,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/jcm12062276",
+   "title": "Behavioral Interventions on Periodontitis Patients to Improve Oral Hygiene: A Systematic Review",
+   "journal": "Journal of Clinical Medicine",
+   "pubdate": "2023-03-15",
+   "cited_by": 24,
+   "is_oa": true
+  }
+ ],
+ "A4_estetica": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/20552076241291345",
+   "title": "Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry",
+   "journal": "Digital Health",
+   "pubdate": "2024-01-01",
+   "cited_by": 47,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.13079",
+   "title": "Applications, functions, and accuracy of artificial intelligence in restorative dentistry: A literature review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2023-07-31",
+   "cited_by": 46,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.52142/omujecm.38.si.dent.18",
+   "title": "Artificial Intelligence Technologies in Dentistry",
+   "journal": "Journal of Experimental and Clinical Medicine",
+   "pubdate": "2021-05-12",
+   "cited_by": 11,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s10103-025-04297-y",
+   "title": "ML-based tooth shade assessment to prevent metamerism in different clinic lights",
+   "journal": "Lasers in Medical Science",
+   "pubdate": "2025-01-23",
+   "cited_by": 6,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/educsci13020150",
+   "title": "Impact of Artificial Intelligence on Dental Education: A Review and Guide for Curriculum Update",
+   "journal": "Education Sciences",
+   "pubdate": "2023-01-31",
+   "cited_by": 348,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/ejo/cjae017",
+   "title": "Evidence-based potential of generative artificial intelligence large language models in orthodontics: a comparative study of ChatGPT, Google Bard, and Microsoft Bing",
+   "journal": "European Journal of Orthodontics",
+   "pubdate": "2024-03-22",
+   "cited_by": 117,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.7759/cureus.41227",
+   "title": "Smart Smile: Revolutionizing Dentistry With Artificial Intelligence",
+   "journal": "Cureus",
+   "pubdate": "2023-06-30",
+   "cited_by": 100,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1155/2021/9954615",
+   "title": "Robotic Applications in Orthodontics: Changing the Face of Contemporary Clinical Care",
+   "journal": "BioMed Research International",
+   "pubdate": "2021-01-01",
+   "cited_by": 73,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.cden.2022.02.008",
+   "title": "Smile Design",
+   "journal": "Dental Clinics of North America",
+   "pubdate": "2022-05-31",
+   "cited_by": 64,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/prosthesis4040053",
+   "title": "Facial Scanners in Dentistry: An Overview",
+   "journal": "Prosthesis",
+   "pubdate": "2022-11-15",
+   "cited_by": 57,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/bioengineering10121390",
+   "title": "Predictability of Dental Distalization with Clear Aligners: A Systematic Review",
+   "journal": "Bioengineering",
+   "pubdate": "2023-12-04",
+   "cited_by": 40,
+   "is_oa": true
+  }
+ ],
+ "B2_anotacion": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-44839-3",
+   "title": "Deep Learning for the Radiographic Detection of Periodontal Bone Loss",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-06-11",
+   "cited_by": 514,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5051/jpis.2018.48.2.114",
+   "title": "Diagnosis and prediction of periodontally compromised teeth using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Periodontal & Implant Science",
+   "pubdate": "2018-01-01",
+   "cited_by": 511,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20190107",
+   "title": "The use and performance of artificial intelligence applications in dental and maxillofacial radiology: A systematic review",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2019-08-06",
+   "cited_by": 391,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-40414-y",
+   "title": "A deep learning approach to automatic teeth detection and numbering based on object detection in dental periapical films",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-03-07",
+   "cited_by": 334,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41368-023-00239-y",
+   "title": "ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model",
+   "journal": "International Journal of Oral Science",
+   "pubdate": "2023-07-28",
+   "cited_by": 327,
+   "is_oa": true
+  }
+ ],
+ "B3_caries": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-020-01114-6",
+   "title": "Deep learning-based dental plaque detection on primary teeth: a comparison with clinical assessments",
+   "journal": "BMC Oral Health",
+   "pubdate": "2020-05-13",
+   "cited_by": 191,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02589-1",
+   "title": "Caries detection with tooth surface segmentation on intraoral photographic images using deep learning",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-12-07",
+   "cited_by": 114,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/app12115504",
+   "title": "Deep Learning Application in Dental Caries Detection Using Intraoral Photos Taken by Smartphones",
+   "journal": "Applied Sciences",
+   "pubdate": "2022-05-29",
+   "cited_by": 108,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.7759/cureus.27405",
+   "title": "Artificial Intelligence in Dentistry: Past, Present, and Future",
+   "journal": "Cureus",
+   "pubdate": "2022-07-28",
+   "cited_by": 244,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.jdent.2018.07.015",
+   "title": "Detection and diagnosis of dental caries using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Dentistry",
+   "pubdate": "2018-07-26",
+   "cited_by": 1016,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-44839-3",
+   "title": "Deep Learning for the Radiographic Detection of Periodontal Bone Loss",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-06-11",
+   "cited_by": 514,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5051/jpis.2018.48.2.114",
+   "title": "Diagnosis and prediction of periodontally compromised teeth using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Periodontal & Implant Science",
+   "pubdate": "2018-01-01",
+   "cited_by": 511,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20190107",
+   "title": "The use and performance of artificial intelligence applications in dental and maxillofacial radiology: A systematic review",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2019-08-06",
+   "cited_by": 391,
+   "is_oa": true
+  }
+ ],
+ "B4_cancer_oral": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s11306-009-0178-y",
+   "title": "Capillary electrophoresis mass spectrometry-based saliva metabolomics identified oral, breast and pancreatic cancer-specific profiles",
+   "journal": "Metabolomics",
+   "pubdate": "2009-09-09",
+   "cited_by": 1018,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/cancers13112766",
+   "title": "Automated Detection and Classification of Oral Lesions Using Deep Learning to Detect Oral Potentially Malignant Disorders",
+   "journal": "Cancers",
+   "pubdate": "2021-06-02",
+   "cited_by": 217,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1117/1.jbo.26.8.086007",
+   "title": "Automatic detection of oral cancer in smartphone-based images using deep learning for early diagnosis",
+   "journal": "Journal of Biomedical Optics",
+   "pubdate": "2021-08-27",
+   "cited_by": 178,
+   "is_oa": true
+  }
+ ],
+ "B1_dataset": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/hmg/ddt065",
+   "title": "Exploring the genetic basis of chronic periodontitis: a genome-wide association study",
+   "journal": "Human Molecular Genetics",
+   "pubdate": "2013-03-04",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20210197",
+   "title": "Current applications and development of artificial intelligence for digital dental radiography",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2021-07-08",
+   "cited_by": 212,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02436-3",
+   "title": "Artificial intelligence (AI) diagnostic tools: utilizing a convolutional neural network (CNN) to assess periodontal bone level radiographically—a retrospective study",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-09-13",
+   "cited_by": 151,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5624/isd.2020.50.2.169",
+   "title": "Automatic detection of periodontal compromised teeth in digital panoramic radiographs using faster regional convolutional neural networks",
+   "journal": "Imaging Science in Dentistry",
+   "pubdate": "2020-01-01",
+   "cited_by": 146,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02119-z",
+   "title": "A two-stage deep learning architecture for radiographic staging of periodontal bone loss",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-04-01",
+   "cited_by": 125,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(19)31133-x",
+   "title": "Ending the neglect of global oral health: time for radical action",
+   "journal": "The Lancet",
+   "pubdate": "2019-07-01",
+   "cited_by": 1038,
+   "is_oa": true
+  }
+ ],
+ "odontologia_gaby_practica": [],
+ "A2_copiloto_fino": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41368-023-00239-y",
+   "title": "ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model",
+   "journal": "International Journal of Oral Science",
+   "pubdate": "2023-07-28",
+   "cited_by": 327,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.prosdent.2016.12.001",
+   "title": "The Glossary of Prosthodontic Terms",
+   "journal": "Journal of Prosthetic Dentistry",
+   "pubdate": "2017-04-11",
+   "cited_by": 915,
+   "is_oa": true
+  }
+ ],
+ "A3_retencion_fino": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1590/1807-3107bor-2020.vol34.0084",
+   "title": "How does the quarantine resulting from COVID-19 impact dental appointments and patient anxiety levels?",
+   "journal": "Brazilian Oral Research",
+   "pubdate": "2020-01-01",
+   "cited_by": 173,
+   "is_oa": true
+  }
+ ],
+ "A4_estetica_fino": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/healthcare10071269",
+   "title": "Where Is the Artificial Intelligence Applied in Dentistry? Systematic Review and Literature Analysis",
+   "journal": "Healthcare",
+   "pubdate": "2022-07-08",
+   "cited_by": 192,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/00220345241271937",
+   "title": "Recent Advances in Intraoral Scanners",
+   "journal": "Journal of Dental Research",
+   "pubdate": "2024-10-09",
+   "cited_by": 117,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-025-05989-1",
+   "title": "Artificial intelligence (AI) in restorative dentistry: current trends and future prospects",
+   "journal": "BMC Oral Health",
+   "pubdate": "2025-04-18",
+   "cited_by": 79,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1590/s2176-94512013000500006",
+   "title": "Finishing procedures in Orthodontics: dental dimensions and proportions (microesthetics)",
+   "journal": "Dental Press Journal of Orthodontics",
+   "pubdate": "2013-10-01",
+   "cited_by": 62,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.ajodo.2023.05.021",
+   "title": "Psychological impact and perceptions of orthodontic treatment of adult patients with different motivations",
+   "journal": "American Journal of Orthodontics and Dentofacial Orthopedics",
+   "pubdate": "2023-06-20",
+   "cited_by": 19,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-024-69314-6",
+   "title": "Clinical audit of an artificial intelligence (AI) empowered smile simulation system: a prospective clinical trial",
+   "journal": "Scientific Reports",
+   "pubdate": "2024-08-21",
+   "cited_by": 18,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3389/fdmed.2025.1612441",
+   "title": "AI-driven dynamic orthodontic treatment management: personalized progress tracking and adjustments—a narrative review",
+   "journal": "Frontiers in Dental Medicine",
+   "pubdate": "2025-08-01",
+   "cited_by": 17,
+   "is_oa": true
+  }
+ ],
+ "B3_caries_fino": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.jds.2020.06.019",
+   "title": "Developments, application, and performance of artificial intelligence in dentistry – A systematic review",
+   "journal": "Journal of Dental Sciences",
+   "pubdate": "2020-06-30",
+   "cited_by": 666,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/idj.12007",
+   "title": "Minimal intervention dentistry for managing dental caries – a review",
+   "journal": "International Dental Journal",
+   "pubdate": "2012-10-01",
+   "cited_by": 529,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s00784-021-04040-1",
+   "title": "Diagnosis of interproximal caries lesions with deep convolutional neural network in digital bitewing radiographs",
+   "journal": "Clinical Oral Investigations",
+   "pubdate": "2021-06-25",
+   "cited_by": 152,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-021-92121-2",
+   "title": "Classification of caries in third molars on panoramic radiographs using deep learning",
+   "journal": "Scientific Reports",
+   "pubdate": "2021-06-15",
+   "cited_by": 132,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-020-01114-6",
+   "title": "Deep learning-based dental plaque detection on primary teeth: a comparison with clinical assessments",
+   "journal": "BMC Oral Health",
+   "pubdate": "2020-05-13",
+   "cited_by": 191,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.oooo.2020.11.003",
+   "title": "Applications of deep learning in dentistry",
+   "journal": "Oral Surgery Oral Medicine Oral Pathology and Oral Radiology",
+   "pubdate": "2020-11-18",
+   "cited_by": 108,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/prd.12580",
+   "title": "Radiographic diagnosis of periodontal diseases – Current evidence versus innovations",
+   "journal": "Periodontology 2000",
+   "pubdate": "2024-06-01",
+   "cited_by": 103,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/prd.12586",
+   "title": "Artificial intelligence and personalized diagnostics in periodontology: A narrative review",
+   "journal": "Periodontology 2000",
+   "pubdate": "2024-06-01",
+   "cited_by": 102,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/healthcare10071269",
+   "title": "Where Is the Artificial Intelligence Applied in Dentistry? Systematic Review and Literature Analysis",
+   "journal": "Healthcare",
+   "pubdate": "2022-07-08",
+   "cited_by": 192,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/00220345241271937",
+   "title": "Recent Advances in Intraoral Scanners",
+   "journal": "Journal of Dental Research",
+   "pubdate": "2024-10-09",
+   "cited_by": 117,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41432-022-0257-8",
+   "title": "Accuracy and effectiveness of teledentistry: a systematic review of systematic reviews",
+   "journal": "Evidence-Based Dentistry",
+   "pubdate": "2022-07-08",
+   "cited_by": 76,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1155/2022/7091153",
+   "title": "Teledentistry in the Management of Patients with Dental and Temporomandibular Disorders",
+   "journal": "BioMed Research International",
+   "pubdate": "2022-01-01",
+   "cited_by": 73,
+   "is_oa": true
+  }
+ ],
+ "B4_oral_fino": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1109/access.2020.3010180",
+   "title": "Automated Detection and Classification of Oral Lesions Using Deep Learning for Early Detection of Oral Cancer",
+   "journal": "IEEE Access",
+   "pubdate": "2020-01-01",
+   "cited_by": 374,
+   "is_oa": true
+  }
+ ],
+ "B2_anotacion_fino": [],
+ "dolor_ansiedad_gaby": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s10865-006-9085-0",
+   "title": "The Fear-Avoidance Model of Musculoskeletal Pain: Current State of Scientific Evidence",
+   "journal": "Journal of Behavioral Medicine",
+   "pubdate": "2006-12-19",
+   "cited_by": 2252,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/adj.12118",
+   "title": "Management of fear and anxiety in the dental clinic: a review",
+   "journal": "Australian Dental Journal",
+   "pubdate": "2013-12-01",
+   "cited_by": 593,
+   "is_oa": true
+  }
+ ]
+}

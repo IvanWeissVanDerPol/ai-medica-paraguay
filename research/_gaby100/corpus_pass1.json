@@ -1,0 +1,1197 @@
+{
+ "A2_copiloto": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.21203/rs.3.rs-4240043/v1",
+   "title": "Me-LLaMA: Foundation Large Language Models for Medical Applications",
+   "journal": "Research Square",
+   "pubdate": "2024-05-21",
+   "cited_by": 57,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/bmjdhai-2025-000092",
+   "title": "Clinical AI Scribes in primary care: accuracy, error severity and implications for clinical practice",
+   "journal": "BMJ Digital Health & AI",
+   "pubdate": "2025-09-01",
+   "cited_by": 10,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.48550/arxiv.2402.12749",
+   "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
+   "journal": "arXiv (Cornell University)",
+   "pubdate": "2024-02-20",
+   "cited_by": 8,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/bmjdhai-2025-000057",
+   "title": "Impact of acoustic and informational noise on AI-generated clinical summaries",
+   "journal": "BMJ Digital Health & AI",
+   "pubdate": "2025-09-01",
+   "cited_by": 6,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/app16146961",
+   "title": "A Modular Evaluation of AI-Assisted Clinical Documentation",
+   "journal": "Applied Sciences",
+   "pubdate": "2026-07-10",
+   "cited_by": 1,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41368-023-00239-y",
+   "title": "ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model",
+   "journal": "International Journal of Oral Science",
+   "pubdate": "2023-07-28",
+   "cited_by": 327,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/jnnp-2021-326767",
+   "title": "Management of functional communication, swallowing, cough and related disorders: consensus recommendations for speech and language therapy",
+   "journal": "Journal of Neurology Neurosurgery & Psychiatry",
+   "pubdate": "2021-07-01",
+   "cited_by": 128,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5860/choice.49-2380",
+   "title": "Policing methamphetamine: narcopolitics in rural America",
+   "journal": "Choice Reviews Online",
+   "pubdate": "2011-12-01",
+   "cited_by": 99,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://openalex.org/W821450851",
+   "title": "A developmental profile of speech sound and syllable acquisition in Zulu speaking children",
+   "journal": "UpSpace Institutional Repository (University of Pretoria)",
+   "pubdate": "2005-03-02",
+   "cited_by": 92,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.cmpb.2024.108356",
+   "title": "Inductive thematic analysis of healthcare qualitative interviews using open-source large language models: How does it compare to traditional methods?",
+   "journal": "Computer Methods and Programs in Biomedicine",
+   "pubdate": "2024-07-24",
+   "cited_by": 79,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(15)60160-x",
+   "title": "Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development",
+   "journal": "The Lancet",
+   "pubdate": "2015-04-26",
+   "cited_by": 3831,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/jech.2003.018085",
+   "title": "Validity of Antonovsky’s sense of coherence scale: a systematic review",
+   "journal": "Journal of Epidemiology & Community Health",
+   "pubdate": "2005-05-23",
+   "cited_by": 1556,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.38124/ijisrt/ijisrt24may1483",
+   "title": "Intelligent Clinical Documentation: Harnessing Generative AI for Patient-Centric Clinical Note Generation",
+   "journal": "International Journal of Innovative Science and Research Technology (IJISRT)",
+   "pubdate": "2024-05-28",
+   "cited_by": 1025,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1002/(issn)1552-146x",
+   "title": "Hastings Center Report",
+   "journal": "The Hastings Center Report",
+   "pubdate": "2018-08-05",
+   "cited_by": 862,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s1470-2045(18)30415-7",
+   "title": "Integration of oncology and palliative care: a Lancet Oncology Commission",
+   "journal": "The Lancet Oncology",
+   "pubdate": "2018-10-18",
+   "cited_by": 857,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1001/jamanetworkopen.2024.60637",
+   "title": "Clinician Experiences With Ambient Scribe Technology to Assist With Documentation Burden and Efficiency",
+   "journal": "JAMA Network Open",
+   "pubdate": "2025-02-19",
+   "cited_by": 238,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/jamia/ocae295",
+   "title": "Ambient artificial intelligence scribes: physician burnout and perspectives on usability and documentation burden",
+   "journal": "Journal of the American Medical Informatics Association",
+   "pubdate": "2024-11-18",
+   "cited_by": 204,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/jamia/ocae022",
+   "title": "The impact of nuance DAX ambient listening AI documentation: a cohort study",
+   "journal": "Journal of the American Medical Informatics Association",
+   "pubdate": "2024-02-12",
+   "cited_by": 166,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/jamia/ocae304",
+   "title": "Ambient artificial intelligence scribes: utilization and impact on documentation time",
+   "journal": "Journal of the American Medical Informatics Association",
+   "pubdate": "2024-11-27",
+   "cited_by": 147,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2196/54419",
+   "title": "Using ChatGPT-4 to Create Structured Medical Notes From Audio Recordings of Physician-Patient Encounters: Comparative Study",
+   "journal": "Journal of Medical Internet Research",
+   "pubdate": "2024-03-10",
+   "cited_by": 119,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2196/24087",
+   "title": "Use of Telehealth During the COVID-19 Pandemic: Scoping Review",
+   "journal": "Journal of Medical Internet Research",
+   "pubdate": "2020-10-30",
+   "cited_by": 751,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/fi15060192",
+   "title": "ChatGPT and Open-AI Models: A Preliminary Review",
+   "journal": "Future Internet",
+   "pubdate": "2023-05-26",
+   "cited_by": 722,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.14507/epaa.v11n33.2003",
+   "title": "Wanted, A National Teacher Supply Policy for Education:The Right Way to Meet The \"Highly Qualified Teacher\" Challenge",
+   "journal": "Education Policy Analysis Archives",
+   "pubdate": "2003-09-17",
+   "cited_by": 537,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2196/jmir.7.1.e9",
+   "title": "What Is eHealth (4): A Scoping Exercise to Map the Field",
+   "journal": "Journal of Medical Internet Research",
+   "pubdate": "2005-03-31",
+   "cited_by": 490,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/educsci13020150",
+   "title": "Impact of Artificial Intelligence on Dental Education: A Review and Guide for Curriculum Update",
+   "journal": "Education Sciences",
+   "pubdate": "2023-01-31",
+   "cited_by": 348,
+   "is_oa": true
+  }
+ ],
+ "A3_retention": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5195/ijt.2021.6376",
+   "title": "Speech-Language Pathology and Audiology in South Africa: Clinical Training and Service in the Era of COVID-19",
+   "journal": "International Journal of Telerehabilitation",
+   "pubdate": "2021-06-23",
+   "cited_by": 50,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/jcm11154461",
+   "title": "Oral Manifestations of COVID-19: A Cross-Sectional Study of Their Prevalence and Association with Disease Severity",
+   "journal": "Journal of Clinical Medicine",
+   "pubdate": "2022-07-30",
+   "cited_by": 30,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/jcm12062276",
+   "title": "Behavioral Interventions on Periodontitis Patients to Improve Oral Hygiene: A Systematic Review",
+   "journal": "Journal of Clinical Medicine",
+   "pubdate": "2023-03-15",
+   "cited_by": 24,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12919-021-00223-6",
+   "title": "Proceedings of ‘FETP-ICON 2020’ Conference",
+   "journal": "BMC Proceedings",
+   "pubdate": "2021-08-01",
+   "cited_by": 7,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.46743/2160-3715/2018.3409",
+   "title": "Reflections on the Use of a Smartphone to Facilitate Qualitative Research in South Africa",
+   "journal": "The Qualitative Report",
+   "pubdate": "2018-10-01",
+   "cited_by": 4,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehx391",
+   "title": "2017 ESC/EACTS Guidelines for the management of valvular heart disease",
+   "journal": "European Heart Journal",
+   "pubdate": "2017-08-26",
+   "cited_by": 6341,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehab395",
+   "title": "2021 ESC/EACTS Guidelines for the management of valvular heart disease",
+   "journal": "European Heart Journal",
+   "pubdate": "2021-06-11",
+   "cited_by": 5667,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehv319",
+   "title": "2015 ESC Guidelines for the management of infective endocarditis",
+   "journal": "European Heart Journal",
+   "pubdate": "2015-08-29",
+   "cited_by": 5036,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(21)01330-1",
+   "title": "Worldwide trends in hypertension prevalence and progress in treatment and control from 1990 to 2019: a pooled analysis of 1201 population-representative studies with 104 million participants",
+   "journal": "The Lancet",
+   "pubdate": "2021-08-24",
+   "cited_by": 3923,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehs109",
+   "title": "Guidelines on the management of valvular heart disease (version 2012)",
+   "journal": "European Heart Journal",
+   "pubdate": "2012-08-24",
+   "cited_by": 3576,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2337/dc10-s011",
+   "title": "Standards of Medical Care in Diabetes—2010",
+   "journal": "Diabetes Care",
+   "pubdate": "2009-12-30",
+   "cited_by": 3485,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2337/dc09-s013",
+   "title": "Standards of Medical Care in Diabetes—2009",
+   "journal": "Diabetes Care",
+   "pubdate": "2008-12-31",
+   "cited_by": 2207,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s13063-017-1978-4",
+   "title": "The COMET Handbook: version 1.0",
+   "journal": "Trials",
+   "pubdate": "2017-06-01",
+   "cited_by": 2076,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0195-6701(13)60012-2",
+   "title": "epic3: National Evidence-Based Guidelines for Preventing Healthcare-Associated Infections in NHS Hospitals in England",
+   "journal": "Journal of Hospital Infection",
+   "pubdate": "2013-12-10",
+   "cited_by": 1626,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1146/annurev-psych-122414-033417",
+   "title": "Psychology of Habit",
+   "journal": "Annual Review of Psychology",
+   "pubdate": "2015-09-11",
+   "cited_by": 1462,
+   "is_oa": true
+  }
+ ],
+ "A4_estetica": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/bmj.i5239",
+   "title": "CONSORT 2010 statement: extension to randomised pilot and feasibility trials",
+   "journal": "BMJ",
+   "pubdate": "2016-10-24",
+   "cited_by": 3616,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/1094670516679272",
+   "title": "Domo Arigato Mr. Roboto",
+   "journal": "Journal of Service Research",
+   "pubdate": "2016-11-28",
+   "cited_by": 1317,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2196/mental.4984",
+   "title": "Mental Health Smartphone Apps: Review and Evidence-Based Recommendations for Future Developments",
+   "journal": "JMIR Mental Health",
+   "pubdate": "2016-03-01",
+   "cited_by": 992,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2196/12869",
+   "title": "Digital Mental Health Interventions for Depression, Anxiety, and Enhancement of Psychological Well-Being Among College Students: Systematic Review",
+   "journal": "Journal of Medical Internet Research",
+   "pubdate": "2019-06-14",
+   "cited_by": 903,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/20552076241291345",
+   "title": "Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry",
+   "journal": "Digital Health",
+   "pubdate": "2024-01-01",
+   "cited_by": 47,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.13079",
+   "title": "Applications, functions, and accuracy of artificial intelligence in restorative dentistry: A literature review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2023-07-31",
+   "cited_by": 46,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.52142/omujecm.38.si.dent.18",
+   "title": "Artificial Intelligence Technologies in Dentistry",
+   "journal": "Journal of Experimental and Clinical Medicine",
+   "pubdate": "2021-05-12",
+   "cited_by": 11,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s10103-025-04297-y",
+   "title": "ML-based tooth shade assessment to prevent metamerism in different clinic lights",
+   "journal": "Lasers in Medical Science",
+   "pubdate": "2025-01-23",
+   "cited_by": 6,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/educsci13020150",
+   "title": "Impact of Artificial Intelligence on Dental Education: A Review and Guide for Curriculum Update",
+   "journal": "Education Sciences",
+   "pubdate": "2023-01-31",
+   "cited_by": 348,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41467-024-46411-8",
+   "title": "Systematic analysis of ChatGPT, Google search and Llama 2 for clinical decision support tasks",
+   "journal": "Nature Communications",
+   "pubdate": "2024-03-06",
+   "cited_by": 211,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/ejo/cjae017",
+   "title": "Evidence-based potential of generative artificial intelligence large language models in orthodontics: a comparative study of ChatGPT, Google Bard, and Microsoft Bing",
+   "journal": "European Journal of Orthodontics",
+   "pubdate": "2024-03-22",
+   "cited_by": 117,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/knowledge3030032",
+   "title": "ChatGPT and the Generation of Digitally Born “Knowledge”: How Does a Generative AI Language Model Interpret Cultural Heritage Values?",
+   "journal": "Knowledge",
+   "pubdate": "2023-09-18",
+   "cited_by": 83,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.heliyon.2024.e24593",
+   "title": "Advancements of 3D bioprinting in regenerative medicine: Exploring cell sources for organ fabrication",
+   "journal": "Heliyon",
+   "pubdate": "2024-01-17",
+   "cited_by": 63,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.7759/cureus.41227",
+   "title": "Smart Smile: Revolutionizing Dentistry With Artificial Intelligence",
+   "journal": "Cureus",
+   "pubdate": "2023-06-30",
+   "cited_by": 100,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1155/2021/9954615",
+   "title": "Robotic Applications in Orthodontics: Changing the Face of Contemporary Clinical Care",
+   "journal": "BioMed Research International",
+   "pubdate": "2021-01-01",
+   "cited_by": 73,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.cden.2022.02.008",
+   "title": "Smile Design",
+   "journal": "Dental Clinics of North America",
+   "pubdate": "2022-05-31",
+   "cited_by": 64,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/prosthesis4040053",
+   "title": "Facial Scanners in Dentistry: An Overview",
+   "journal": "Prosthesis",
+   "pubdate": "2022-11-15",
+   "cited_by": 57,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/bioengineering10121390",
+   "title": "Predictability of Dental Distalization with Clear Aligners: A Systematic Review",
+   "journal": "Bioengineering",
+   "pubdate": "2023-12-04",
+   "cited_by": 40,
+   "is_oa": true
+  }
+ ],
+ "B2_anotacion": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41392-024-01888-z",
+   "title": "Cell–cell communication: new insights and clinical implications",
+   "journal": "Signal Transduction and Targeted Therapy",
+   "pubdate": "2024-08-06",
+   "cited_by": 404,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41746-024-01258-7",
+   "title": "A framework for human evaluation of large language models in healthcare derived from literature review",
+   "journal": "npj Digital Medicine",
+   "pubdate": "2024-09-27",
+   "cited_by": 372,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://openalex.org/W2252166243",
+   "title": "Continuous Measurement Scales in Human Evaluation of Machine Translation",
+   "journal": "Trinity's Access to Research Output (TARA) (Trinity College Dublin)",
+   "pubdate": "2013-08-01",
+   "cited_by": 151,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3310/hta12140",
+   "title": "A randomised controlled trial of cognitive behaviour therapy in adolescents with major depression treated by selective serotonin reuptake inhibitors. The ADAPT trial",
+   "journal": "Health Technology Assessment",
+   "pubdate": "2008-05-01",
+   "cited_by": 149,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.jbi.2016.12.007",
+   "title": "An unsupervised machine learning model for discovering latent infectious diseases using social media data",
+   "journal": "Journal of Biomedical Informatics",
+   "pubdate": "2016-12-26",
+   "cited_by": 127,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-44839-3",
+   "title": "Deep Learning for the Radiographic Detection of Periodontal Bone Loss",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-06-11",
+   "cited_by": 514,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5051/jpis.2018.48.2.114",
+   "title": "Diagnosis and prediction of periodontally compromised teeth using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Periodontal & Implant Science",
+   "pubdate": "2018-01-01",
+   "cited_by": 511,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20190107",
+   "title": "The use and performance of artificial intelligence applications in dental and maxillofacial radiology: A systematic review",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2019-08-06",
+   "cited_by": 391,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-40414-y",
+   "title": "A deep learning approach to automatic teeth detection and numbering based on object detection in dental periapical films",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-03-07",
+   "cited_by": 334,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41368-023-00239-y",
+   "title": "ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model",
+   "journal": "International Journal of Oral Science",
+   "pubdate": "2023-07-28",
+   "cited_by": 327,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.media.2017.07.005",
+   "title": "A survey on deep learning in medical image analysis",
+   "journal": "Medical Image Analysis",
+   "pubdate": "2017-07-26",
+   "cited_by": 15232,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12864-019-6413-7",
+   "title": "The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation",
+   "journal": "BMC Genomics",
+   "pubdate": "2020-01-02",
+   "cited_by": 6150,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1109/tnnls.2021.3070843",
+   "title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+   "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+   "pubdate": "2021-04-26",
+   "cited_by": 2895,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41467-024-44824-z",
+   "title": "Segment anything in medical images",
+   "journal": "Nature Communications",
+   "pubdate": "2024-01-22",
+   "cited_by": 2802,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.inffus.2021.05.008",
+   "title": "A review of uncertainty quantification in deep learning: Techniques, applications and challenges",
+   "journal": "Information Fusion",
+   "pubdate": "2021-05-23",
+   "cited_by": 2684,
+   "is_oa": true
+  }
+ ],
+ "B3_caries": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/jerd.12844",
+   "title": "Applications of artificial intelligence in dentistry: A comprehensive review",
+   "journal": "Journal of Esthetic and Restorative Dentistry",
+   "pubdate": "2021-11-29",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-020-01114-6",
+   "title": "Deep learning-based dental plaque detection on primary teeth: a comparison with clinical assessments",
+   "journal": "BMC Oral Health",
+   "pubdate": "2020-05-13",
+   "cited_by": 191,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.2337/dci23-0032",
+   "title": "Artificial Intelligence and Diabetic Retinopathy: AI Framework, Prospective Studies, Head-to-head Validation, and Cost-effectiveness",
+   "journal": "Diabetes Care",
+   "pubdate": "2023-09-20",
+   "cited_by": 143,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02589-1",
+   "title": "Caries detection with tooth surface segmentation on intraoral photographic images using deep learning",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-12-07",
+   "cited_by": 114,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/app12115504",
+   "title": "Deep Learning Application in Dental Caries Detection Using Intraoral Photos Taken by Smartphones",
+   "journal": "Applied Sciences",
+   "pubdate": "2022-05-29",
+   "cited_by": 108,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.addr.2021.113958",
+   "title": "Connected healthcare: Improving patient care using digital health technologies",
+   "journal": "Advanced Drug Delivery Reviews",
+   "pubdate": "2021-08-31",
+   "cited_by": 414,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.inffus.2023.102060",
+   "title": "Insights into Internet of Medical Things (IoMT): Data fusion, security issues and potential solutions",
+   "journal": "Information Fusion",
+   "pubdate": "2023-09-29",
+   "cited_by": 258,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.7759/cureus.27405",
+   "title": "Artificial Intelligence in Dentistry: Past, Present, and Future",
+   "journal": "Cureus",
+   "pubdate": "2022-07-28",
+   "cited_by": 244,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.jdent.2018.07.015",
+   "title": "Detection and diagnosis of dental caries using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Dentistry",
+   "pubdate": "2018-07-26",
+   "cited_by": 1016,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41598-019-44839-3",
+   "title": "Deep Learning for the Radiographic Detection of Periodontal Bone Loss",
+   "journal": "Scientific Reports",
+   "pubdate": "2019-06-11",
+   "cited_by": 514,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5051/jpis.2018.48.2.114",
+   "title": "Diagnosis and prediction of periodontally compromised teeth using a deep learning-based convolutional neural network algorithm",
+   "journal": "Journal of Periodontal & Implant Science",
+   "pubdate": "2018-01-01",
+   "cited_by": 511,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.imed.2022.07.002",
+   "title": "Transformers in medical image analysis",
+   "journal": "Intelligent Medicine",
+   "pubdate": "2022-08-24",
+   "cited_by": 477,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20190107",
+   "title": "The use and performance of artificial intelligence applications in dental and maxillofacial radiology: A systematic review",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2019-08-06",
+   "cited_by": 391,
+   "is_oa": true
+  }
+ ],
+ "B4_cancer_oral": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehaa612",
+   "title": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+   "journal": "European Heart Journal",
+   "pubdate": "2020-07-17",
+   "cited_by": 10132,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/cts.12884",
+   "title": "Precision Medicine, AI, and the Future of Personalized Health Care",
+   "journal": "Clinical and Translational Science",
+   "pubdate": "2020-09-22",
+   "cited_by": 1838,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1161/circresaha.120.316340",
+   "title": "Epidemiology of Atrial Fibrillation in the 21st Century",
+   "journal": "Circulation Research",
+   "pubdate": "2020-06-18",
+   "cited_by": 1548,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehac270",
+   "title": "2022 ESC Guidelines on cardiovascular assessment and management of patients undergoing non-cardiac surgery",
+   "journal": "European Heart Journal",
+   "pubdate": "2022-08-26",
+   "cited_by": 1146,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1109/access.2020.2992341",
+   "title": "A Comprehensive Review of the COVID-19 Pandemic and the Role of IoT, Drones, AI, Blockchain, and 5G in Managing its Impact",
+   "journal": "IEEE Access",
+   "pubdate": "2020-01-01",
+   "cited_by": 1130,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/0333102413485658",
+   "title": "The International Classification of Headache Disorders, 3rd edition (beta version)",
+   "journal": "Cephalalgia",
+   "pubdate": "2013-06-14",
+   "cited_by": 8285,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/jnci/90.12.889",
+   "title": "Photodynamic Therapy",
+   "journal": "JNCI Journal of the National Cancer Institute",
+   "pubdate": "1998-06-17",
+   "cited_by": 4697,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(21)00218-x",
+   "title": "Parkinson's disease",
+   "journal": "The Lancet",
+   "pubdate": "2021-04-11",
+   "cited_by": 3877,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1116/1.2815690",
+   "title": "Nanomaterials and nanoparticles: Sources and toxicity",
+   "journal": "Biointerphases",
+   "pubdate": "2007-12-01",
+   "cited_by": 3760,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1182/blood.2022016867",
+   "title": "Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN",
+   "journal": "Blood",
+   "pubdate": "2022-07-07",
+   "cited_by": 3239,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1007/s11306-009-0178-y",
+   "title": "Capillary electrophoresis mass spectrometry-based saliva metabolomics identified oral, breast and pancreatic cancer-specific profiles",
+   "journal": "Metabolomics",
+   "pubdate": "2009-09-09",
+   "cited_by": 1018,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/ma12182884",
+   "title": "Vibrational Spectroscopy Fingerprinting in Medicine: from Molecular to Clinical Practice",
+   "journal": "Materials",
+   "pubdate": "2019-09-06",
+   "cited_by": 359,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/cancers13112766",
+   "title": "Automated Detection and Classification of Oral Lesions Using Deep Learning to Detect Oral Potentially Malignant Disorders",
+   "journal": "Cancers",
+   "pubdate": "2021-06-02",
+   "cited_by": 217,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1117/1.jbo.26.8.086007",
+   "title": "Automatic detection of oral cancer in smartphone-based images using deep learning for early diagnosis",
+   "journal": "Journal of Biomedical Optics",
+   "pubdate": "2021-08-27",
+   "cited_by": 178,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1038/s41416-021-01386-x",
+   "title": "Artificial Intelligence-based methods in head and neck cancer diagnosis: an overview",
+   "journal": "British Journal of Cancer",
+   "pubdate": "2021-04-19",
+   "cited_by": 165,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/gutjnl-2014-308124",
+   "title": "Global incidence of oesophageal cancer by histological subtype in 2012",
+   "journal": "Gut",
+   "pubdate": "2014-10-15",
+   "cited_by": 1517,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/molecules21070901",
+   "title": "Polyphenols: Extraction Methods, Antioxidative Action, Bioavailability and Anticarcinogenic Effects",
+   "journal": "Molecules",
+   "pubdate": "2016-07-11",
+   "cited_by": 1092,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1039/d0fo02324h",
+   "title": "Phenolic compounds: current industrial applications, limitations and future challenges",
+   "journal": "Food & Function",
+   "pubdate": "2020-11-05",
+   "cited_by": 713,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/j.1750-3841.2007.00535.x",
+   "title": "Yerba Mate Tea ( Ilex paraguariensis ): A Comprehensive Review on Chemistry, Health Implications, and Technological Considerations",
+   "journal": "Journal of Food Science",
+   "pubdate": "2007-10-17",
+   "cited_by": 707,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s2468-1253(20)30007-8",
+   "title": "The global, regional, and national burden of oesophageal cancer and its attributable risk factors in 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+   "journal": "The Lancet. Gastroenterology & hepatology",
+   "pubdate": "2020-04-01",
+   "cited_by": 653,
+   "is_oa": true
+  }
+ ],
+ "B1_dataset": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/hmg/ddt065",
+   "title": "Exploring the genetic basis of chronic periodontitis: a genome-wide association study",
+   "journal": "Human Molecular Genetics",
+   "pubdate": "2013-03-04",
+   "cited_by": 249,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1259/dmfr.20210197",
+   "title": "Current applications and development of artificial intelligence for digital dental radiography",
+   "journal": "Dentomaxillofacial Radiology",
+   "pubdate": "2021-07-08",
+   "cited_by": 212,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02436-3",
+   "title": "Artificial intelligence (AI) diagnostic tools: utilizing a convolutional neural network (CNN) to assess periodontal bone level radiographically—a retrospective study",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-09-13",
+   "cited_by": 151,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.5624/isd.2020.50.2.169",
+   "title": "Automatic detection of periodontal compromised teeth in digital panoramic radiographs using faster regional convolutional neural networks",
+   "journal": "Imaging Science in Dentistry",
+   "pubdate": "2020-01-01",
+   "cited_by": 146,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1186/s12903-022-02119-z",
+   "title": "A two-stage deep learning architecture for radiographic staging of periodontal bone loss",
+   "journal": "BMC Oral Health",
+   "pubdate": "2022-04-01",
+   "cited_by": 125,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1371/journal.pmed.1001779",
+   "title": "UK Biobank: An Open Access Resource for Identifying the Causes of a Wide Range of Complex Diseases of Middle and Old Age",
+   "journal": "PLoS Medicine",
+   "pubdate": "2015-03-31",
+   "cited_by": 13892,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/healthcare11060887",
+   "title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns",
+   "journal": "Healthcare",
+   "pubdate": "2023-03-19",
+   "cited_by": 2920,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(19)31133-x",
+   "title": "Ending the neglect of global oral health: time for radical action",
+   "journal": "The Lancet",
+   "pubdate": "2019-07-01",
+   "cited_by": 1038,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/j.crgsc.2022.100273",
+   "title": "Sustainability of biodegradable plastics: New problem or solution to solve the global plastic pollution?",
+   "journal": "Current Research in Green and Sustainable Chemistry",
+   "pubdate": "2022-01-01",
+   "cited_by": 772,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.3390/su151712983",
+   "title": "Transforming Education: A Comprehensive Review of Generative Artificial Intelligence in Educational Settings through Bibliometric and Content Analysis",
+   "journal": "Sustainability",
+   "pubdate": "2023-08-29",
+   "cited_by": 764,
+   "is_oa": true
+  }
+ ],
+ "odontologia_gaby_practica": [
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(20)30367-6",
+   "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+   "journal": "The Lancet",
+   "pubdate": "2020-07-30",
+   "cited_by": 10664,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1177/109019818401100101",
+   "title": "The Health Belief Model: A Decade Later",
+   "journal": "Health Education Quarterly",
+   "pubdate": "1984-03-01",
+   "cited_by": 8514,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1111/j.1398-9995.2007.01620.x",
+   "title": "Allergic Rhinitis and its Impact on Asthma (ARIA) 2008*",
+   "journal": "Allergy",
+   "pubdate": "2008-03-07",
+   "cited_by": 4751,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1161/cir.0b013e31823ba622",
+   "title": "2011 ACCF/AHA/SCAI Guideline for Percutaneous Coronary Intervention",
+   "journal": "Circulation",
+   "pubdate": "2011-11-08",
+   "cited_by": 3304,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1183/09031936.00138707",
+   "title": "Global strategy for asthma management and prevention: GINA executive summary",
+   "journal": "European Respiratory Journal",
+   "pubdate": "2007-12-31",
+   "cited_by": 3254,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(18)32279-7",
+   "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+   "journal": "The Lancet",
+   "pubdate": "2018-11-01",
+   "cited_by": 14231,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1136/bmj.n160",
+   "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+   "journal": "BMJ",
+   "pubdate": "2021-03-29",
+   "cited_by": 11638,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(12)61729-2",
+   "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990–2010: a systematic analysis for the Global Burden of Disease Study 2010",
+   "journal": "The Lancet",
+   "pubdate": "2012-12-01",
+   "cited_by": 8450,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(16)31679-8",
+   "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+   "journal": "The Lancet",
+   "pubdate": "2016-10-01",
+   "cited_by": 7826,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(24)00757-8",
+   "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "journal": "The Lancet",
+   "pubdate": "2024-04-17",
+   "cited_by": 4898,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(23)01301-6",
+   "title": "Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021",
+   "journal": "The Lancet",
+   "pubdate": "2023-06-23",
+   "cited_by": 4599,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(18)31310-2",
+   "title": "Alcohol use and burden for 195 countries and territories, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016",
+   "journal": "The Lancet",
+   "pubdate": "2018-08-23",
+   "cited_by": 3639,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1016/s0140-6736(24)00367-2",
+   "title": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "journal": "The Lancet",
+   "pubdate": "2024-04-03",
+   "cited_by": 2792,
+   "is_oa": true
+  },
+  {
+   "source": "openalex",
+   "id": "https://doi.org/10.1093/eurheartj/ehp285",
+   "title": "Guidelines on the prevention, diagnosis, and treatment of infective endocarditis (new version 2009)",
+   "journal": "European Heart Journal",
+   "pubdate": "2009-08-27",
+   "cited_by": 2034,
+   "is_oa": true
+  }
+ ]
+}

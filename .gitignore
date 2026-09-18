@@ -12,4 +12,5 @@
 *.autosave
 
 # Local overrides
-local/
+local/_gaby100/keys.env
+_gaby100/corpus_pass1.json
