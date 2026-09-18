@@ -4,6 +4,29 @@ Historial de cambios significativos al repo `ai-medica-paraguay/`.
 
 ---
 
+## 2026-09-17 — Sesión: corrección de roles + análisis org AIW (capstone v2)
+
+### Contexto
+
+Correcciones críticas del usuario: **Iván NO es odontólogo** — es fundador de AI Whisperers, capacidad pura de IA/sistemas/digital, cero conocimiento dental. **Gaby es LA odontóloga doctora** (Dra. González Pane, MSPBS 3618, operatoria+estética+doctorado, 20+ años). Además: analizar el org de GitHub de AI Whisperers si relevante.
+
+### Análisis del org Ai-Whisperers (100 repos inspeccionados vía API)
+
+**Infraestructura ya construida**: `transcriptor-agent` (Whisper large-v3 en producción: CLI+API+SPA, TDD, CI/CD) = 70% del copiloto #5; `aiw-org` (116 agentes, 79 crons, Docker Swarm+Hermes, $93.61/día burn medido) = la fábrica 24/7; `paragu-ai-platform`/`site-template`/`client-kit` (Next.js 16 WhatsApp-first) = base de la app; `code-agent`; workers OAuth LinkedIn/Instagram.
+
+**Negocio dental ya en marcha**: `dentist` = OMETZ DENTAL (práctica de Gaby, sitio live ometzdental.com, 400 archivos: estrategia/pricing/compliance/GTM/CRM/marketing/WhatsApp/templates); `gaby-client-engine` (1,090 leads pre-scored 15km Mburucuyá + 6 colegas dentales, 6 plantillas WhatsApp, 15 plays); `Odontology` (template multi-clínica archived).
+
+### Agregado
+
+- **`research/LA-IDEA-COMPLETA-v2.md`** (~10 KB): correcciones (tabla antes/después), inventario real con relevancia por componente, plan v2 con fases más cortas (Fase 1 = copiloto sobre transcriptor-agent en 4 semanas a costo casi cero; lo único genuinamente nuevo = modelos de visión + calibración clínica), roles correctos (Iván construye, Gaby es el gate clínico de TODO), top 5 actualizado (#5 copiloto sube a 1° en velocidad), y la tesis en una página.
+
+### Modificado
+
+- **`INDEX.md`** — v2 promovida a documento de entrada; v1 marcada como superada.
+- Memoria de usuario actualizada con roles correctos (Iván=AI puro, Gaby=LA doctora, Ometz Dental live, inventario AIW).
+
+---
+
 ## 2026-09-17 — Sesión: LA IDEA COMPLETA (capstone)
 
 ### Agregado
