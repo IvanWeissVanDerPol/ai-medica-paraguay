@@ -14,3 +14,7 @@
 # Local overrides
 local/_gaby100/keys.env
 _gaby100/corpus_pass1.json
+
+# Secret material from the Gaby research harness (never commit)
+research/_gaby100/keys.env
+**/keys.env
